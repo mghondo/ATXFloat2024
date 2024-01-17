@@ -1,0 +1,18 @@
+/* Team10.css */
+
+/* Image container styles */
+.team .thumbnail img {
+    width: 100%; /* Set your desired width */
+    height: 100%; /* Set your desired height */
+    object-fit: cover; /* Use "cover" to make sure the image covers the container */
+  }
+  
+  /* Additional styles for other elements if needed */
+  .content {
+    /* Add styles for the content if needed */
+  }
+  
+  .staffPersonal {
+    /* Add styles for the staffPersonal if needed */
+  }
+  

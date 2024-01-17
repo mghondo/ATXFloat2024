@@ -1,0 +1,16 @@
+@media (max-width: 1300px) {
+    .subtitle {
+        font-size: 20px; /* Adjust the font size as needed */
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .classIWant {
+      padding: 150px !important;
+    }
+  }
+  @media screen and (max-width: 990px) {
+    .classIWant {
+      padding: 100px !important;
+    }
+  }

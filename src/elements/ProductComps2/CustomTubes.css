@@ -1,0 +1,68 @@
+/* CustomTubes.css */
+
+.custom-tubes-container {
+  /* Add your custom styles for the container */
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+}
+
+@media (max-width: 767px) {
+  .custom-tubes-container {
+    /* Styles for screens with width less than 767px */
+    padding: 25px;
+  }
+}
+
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+@media (max-width: 767px) {
+  .image-gallery {
+    /* Two tubes per row in mobile mode */
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.gallery-item {
+  overflow: hidden;
+  border-radius: 8px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* This ensures the image covers the entire container */
+}
+
+.backto-top {
+  /* Add your styles for the back-to-top button */
+}
+
+/* CustomTubes.css */
+
+.custom-tubes-header {
+  text-align: center;
+  margin: 140px 0; /* Adjust the margin as needed */
+}
+
+@media (max-width: 767px) {
+  .custom-tubes-header {
+    /* Styles for screens with width less than 767px */
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+}
+
+.custom-tubes-header h1 {
+  font-size: 24px;
+  color: #333; /* Adjust the color as needed */
+}
+
+.ril__inner {
+  background-color: #f3edd1;
+}

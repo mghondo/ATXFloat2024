@@ -1,0 +1,211 @@
+.title, .productTitle {
+    font-family: 'Brice-Black';
+    text-align: center;
+    color: #ef5474;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    font-size: 2rem;
+    margin-top: 20px;
+  }
+.align-items-center2 {
+  padding-top: 30px;
+
+}
+.rn-about-wrapper {
+  margin-top: 10px !important;
+}
+.subtitle {
+  color: black;
+  font-family: 'Brice-Light';
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: 10px;
+  padding-bottom: 0px !important;
+  margin-bottom: 0px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+
+  @media (min-width: 567px) {
+    /* .title {
+      font-size: 1.0rem;
+    } */
+    .lowerLevel {
+      margin-top: 40px;
+    }
+      .slider-image {
+        /* Styles for screens with width less than 767px */
+        height: 200px;
+        object-fit: cover;
+      }
+    .productImg {
+      padding: 0px 0px !important;
+    }
+
+    .mt_sm--40 {
+      margin-top: 0px;
+    }
+    .align-items-center2 {
+      padding-top: 0px !important;
+    }
+    .bigPhotoColumn {
+      margin-top: 0px !important;
+    }
+      
+  }
+
+  @media (max-width: 767px) {
+    .title, .productTitle {
+      margin-top: 50px !important;
+      font-size: 1.3rem !important;
+    }
+    .subtitle {
+      font-size: 1.1rem !important;
+    }
+    .about-inner, .inner {
+      padding-top: 0px !important;
+    }
+    .section-title {
+      margin-top: 0px !important;
+    }
+    .align-items-center2 {
+      padding-top: 0px !important;
+    }
+    .bigPhotoColumn {
+      margin-top: 0px !important;
+    }
+    .productImg {
+      margin-top: 0px !important;
+    }
+    .noMargin {
+      margin: 0px !important;
+      padding: 0px !important;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .bigPhoto {
+      height: 230px !important;
+      object-fit:cover !important;
+    }
+    .bigPhotoColumn {
+      margin-top: 0px;
+    }
+    .rn-about-wrapper {
+      margin-top: 10px !important;
+    }
+  }
+
+
+
+
+  .rn-about-wrapper {
+    margin-top: 50px;
+  }
+  
+  .section-title {
+    margin-top: 20px;
+  }
+
+  .w-100 {
+    /* Default styles for .w-100 */
+    width: 100%;
+  }
+  
+  @media (max-width: 567px) and (min-width: 400px) {
+    .w-100 {
+      /* Styles for .w-100 between 567px and 400px */
+      /* width: 200px; */
+    }
+    .bg_color--1 {
+      /* margin-top: 40px; */
+    }
+
+  }
+  
+/* Slider */
+
+/* Add this CSS to your stylesheet */
+.slider-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+  }
+  
+  .slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+  }
+  
+  .slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+  }
+  
+  .slick-slide img {
+    width: 100%;
+    height: auto;
+  }
+  .slick-prev,
+  .slick-next {
+    font-size: 24px;
+    line-height: 1;
+    color: #000; /* Set your arrow color */
+    cursor: pointer;
+  }
+  
+  .slick-prev:hover,
+  .slick-next:hover {
+    color: #333; /* Set your arrow color on hover */
+  }
+  .slick-dots {
+    display: flex !important;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .slick-dots li {
+    margin: 0 4px;
+  }
+  
+  .slick-dots button {
+    font-size: 10px;
+    line-height: 1;
+    display: block;
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+    color: #000; /* Set your dot color */
+    cursor: pointer;
+    border: 1px solid #000; /* Set your dot border color */
+    border-radius: 50%;
+    background: transparent;
+  }
+  
+  .slick-dots button:hover {
+    background: #b96363; /* Set your dot background color on hover */
+    color: #fff; /* Set your dot color on hover */
+  }
+      
+  

@@ -1,0 +1,116 @@
+/* ModalTwo.css */
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: top;
+    z-index: 1000; /* Ensure the modal is above other elements */
+  }
+  
+  /* Update the class name in ModalTwo.css */
+  .modal-two-content {
+    background-color: #f3edd1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%; /* Set width to 100% */
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: auto; /* Add margin: auto to center the modal horizontally */
+  }
+  
+  .modal.open {
+    display: flex;
+  }
+  
+  .modal-container {
+    background-color: #f3edd1;
+    width: 100%; /* Make the container full width */
+    max-width: 50%; /* Set a maximum width if necessary for larger screens */
+    max-height: 50%;
+    /* padding: 20px; */
+    box-sizing: border-box;
+    /* padding: 40px;
+    margin: 20px; */
+  }
+
+  .customOptions {
+    max-height: 600px;
+  }
+
+  @media (min-width: 768px) {
+    /* Media query for screens with width less than 767px (mobile screens) */
+    .modal-container {
+      /* padding: 20px; */
+      margin-top: 0%;
+    }
+  }
+  @media (max-width: 767px) {
+    /* Media query for screens with width less than 767px (mobile screens) */
+    .modal-container {
+      max-width: 90%; /* Set a maximum width of 90% for mobile screens */
+      max-height: 100%;
+      padding: 0px;
+      margin-top: 0%;
+    }
+    .summaryP {
+      font-size: 15px;
+    }
+  }
+  
+  .close-button {
+    position: absolute;
+    bottom: 10px;
+    width: 100%; /* Make the button full width */
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-family: 'Brice-Black';
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+    border: 1px solid black; /* Add a 1px black border */
+  }
+  
+  .close-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Brice-Black';
+  }
+  
+  .summaryP {
+    color: black;
+    font-family: 'Brice-Light';
+  }
+  
+  .custom-close-button {
+    font-family: 'Brice-Black';
+    color: black;
+    text-align: center;
+    margin-top: 15px; /* Adjust the margin as needed */
+    cursor: pointer;
+    border: 1px solid black; /* Add a 1px black border */
+    background-color: transparent;
+    font-size: 1.5rem;
+    outline: none;
+    transition: color 0.3s;
+  }
+  
+  .custom-close-button:hover {
+    color: #2bfff6;
+  }
+  

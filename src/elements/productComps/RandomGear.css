@@ -1,0 +1,30 @@
+/* RandomGear.css */
+
+.related-work {
+    height: 500px; /* Adjust the height as needed */
+  }
+  
+  .related-work .thumb {
+    position: relative;
+  }
+  
+  .related-work img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    min-height: 350px;
+    max-height: 400px;
+    min-width: 450px;
+    max-width: 500px;
+  }
+  
+  .related-work .inner h4 a {
+    font-family: 'Brice-Black';
+    color: #ef5474;
+  }
+  
+  .related-work .inner span {
+    font-family: 'Brice-Light';
+    color: black;
+  }
+  

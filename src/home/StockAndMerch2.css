@@ -1,0 +1,96 @@
+/* StockAndMerch2.css */
+
+/* .blog-style--1 */
+.content {
+  margin-top: -20px; /* Add a negative top margin of 20 pixels */
+  z-index: 999; 
+  /* padding: 20px !important; */
+  margin-bottom: 20px !important;
+}
+/* Default styles for .blog-style--1 */
+.blog-style--1 {
+  margin-bottom: 20px; /* or any other default value */
+}
+
+/* Media query for screens 767px or less */
+@media (max-width: 767px) {
+  .blog-style--1 {
+    margin-bottom: 0;
+  }
+}
+
+.col-lg-4.col-md-6.col-12 {
+  margin-top: 0; /* Default margin-top */
+}
+
+/* Media query for screens less than 768px wide (adjust the breakpoint as needed) */
+@media (max-width: 767px) {
+  .col-lg-4.col-md-6.col-12 {
+    margin-top: 25px; /* Margin-top for mobile mode */
+    height: 300px !important;
+  }
+}
+
+.StockandMerchImg {
+  object-fit: cover !important;
+  /* transform: scale(0.55);  */
+}
+
+/* Inline styles from React component */
+.portfolio-area {
+  background-color: #f3edd1;
+  padding-bottom: 40px;
+  padding-top: 0;
+}
+
+.rn-slick-dot {
+  background-color: #f3edd1;
+}
+
+.section-title {
+  text-align: center;
+}
+
+.slick-space-gutter--15 {
+  background-color: #f3edd1;
+}
+
+.blog {
+  background-color: #f3edd1;
+  /* border-radius: 20px; */
+  height: 100%;
+}
+
+.thumbnail {
+  background-color: #f3edd1;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  /* border-radius: 20px; */
+}
+@media (max-width: 767px) and (min-width: 400px)  {
+  .StockandMerchImg {
+    height: 300px !important;
+    /* object-fit: contain !important; */
+  }
+}
+@media (max-width: 767px) and (min-width: 450px)  {
+  .StockandMerchImg {
+    /* height: 300px !important; */
+    object-fit: contain !important;
+  }
+}
+
+.blogtype {
+  color: #ef5474;
+  font-size: 2.0rem;
+  font-family: 'Brice-Light';
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.blog-btn {
+  /* Add any styles for blog-btn here */
+}
+
+/* Add any additional styles from StockAndMerch2.css as needed */

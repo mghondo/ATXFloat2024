@@ -1,0 +1,117 @@
+@keyframes bounceUpDown {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+      color: #ef5474;
+    }
+    40% {
+      /* transform: translateY(-10px); */
+      color: #3ac1ea; /* Yellow color - Change as desired */
+    }
+    60% {
+      /* transform: translateY(-10px); */
+      color: #ef5474;
+    }
+  }
+  
+  /* Add a more specific class or ID to target the element */
+  #customTube {
+    animation: bounceUpDown .2s infinite; /* Adjust the animation duration as needed */
+  }
+
+  /* interiorStyles.css */
+
+.view-more-btn {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.view-more-btn a {
+  text-decoration: none; /* Remove underline from the anchor tag */
+}
+
+.view-more-btn .parallax-container {
+  padding: 70px;
+  border-radius: 25px;
+}
+
+.view-more-btn .section-title {
+  border-radius: 25px;
+}
+
+.view-more-btn .animated-text {
+  animation: fontSizeAnimation 2s infinite alternate;
+}
+
+.view-more-btn p {
+  color: white;
+  font-family: 'Brice-Light';
+  font-size: 2.5rem;
+}
+
+.view-more-btn .title {
+  font-size: 5rem;
+  font-family: 'Brice-Black';
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+/* Add more specific selectors and styles as needed */
+@media (max-width: 767px) {
+  .view-more-btn .title {
+    font-size: 40px !important;
+  }
+}
+
+/* styles.css */
+.merch {
+  font-family: 'Brice-Black';
+  color: #ef5474;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+/* Additional styles for smaller screens */
+@media (max-width: 479px) {
+  .section-title h2.title  {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .catHeader {
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .section-title h2.title {
+    font-size: 30px;
+  }
+  .catHeader {
+    font-size: 50px;
+    margin-top: 30px;
+    color: #54efe9 !important;
+  }
+  .w-100 {
+    height: 270px !important;
+    object-fit: cover !important; 
+  }
+
+}
+
+@media screen and (max-width: 499px) and (min-width: 200px) {
+
+  .catHeader {
+    font-size: 40px;
+    color: #54efe9 !important;
+  }
+  .portfolio-area .ptb--120 .bg_color--5 {
+    padding-top: 0px !important;
+  }
+  .w-100 {
+    height: 320px !important;
+    object-fit: cover !important; 
+  }
+  .catHeader {
+    margin-top: 20px !important;
+    font-size: 2rem !important;
+  }
+}

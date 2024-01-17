@@ -1,0 +1,54 @@
+/* breadcrumb.css */
+
+/* Breadcrumb container */
+#morganbreadcrumb {
+  margin-top: 76px; /* Default marginTop for screens wider than 991px */
+}
+
+@media (max-width: 991px) {
+  #morganbreadcrumb {
+    margin-top: 58px !important; /* Adjust marginTop for screens 991px or less */
+  }
+}
+
+/* Breadcrumb title */
+.myTitle {
+  font-family: 'Brice-Black';
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  /* color: #ef5474; */
+  color: #54efe9;
+}
+
+@media (max-width: 567px) {
+  .myTitle {
+    font-size: 1.75rem;
+    color: #54efe9;
+  }
+}
+
+/* Breadcrumb background */
+
+
+.bg_image {
+  background-position: top right;
+}
+
+.breadcrumb-inner {
+  padding-top: 100px;
+}
+
+[data-black-overlay="1"] {
+  /* Add any additional styles as needed */
+}
+
+.breadcrumb-area {
+  position: relative;
+  background-image: url('/assets/images/bg/ATXFLOAT3.jpg');
+  background-position: top right;
+}
+
+@media (max-width: 991px) {
+  .breadcrumb-area.mobile-breadcrumb {
+    margin-top: 58px !important;
+  }
+}

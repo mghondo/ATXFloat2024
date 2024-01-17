@@ -1,0 +1,13 @@
+@media (max-width: 767px) {
+    .aboutPic{
+      display: none !important;
+    }
+    .ptb--120, .ptb--80 {
+        padding: 10px !important;
+        text-align: left;
+    }
+  }
+
+.description {
+    text-align: left;
+}

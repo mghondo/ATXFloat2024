@@ -1,0 +1,5 @@
+@media (min-width: 1203px) {
+    .brShow {
+      display: none; /* or inline, inline-block, etc. depending on your needs */
+    }
+  }

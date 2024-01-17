@@ -1,0 +1,19 @@
+/* CustomTubeInfoModal.css */
+/* Mobile styles */
+@media (max-width: 767px) {
+  .modal-content {
+    max-height: 60vh;
+    overflow-y: auto;
+    background-color: transparent; /* Set the background color to transparent */
+    padding: 20px; /* Add padding for better readability */
+  }
+
+  .summaryP {
+    color: black; /* Set the text color to black */
+    margin-bottom: 20px;
+  }
+
+  ul {
+    color: black; /* Set the text color to black */
+  }
+}

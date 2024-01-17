@@ -1,0 +1,67 @@
+/* src/CarouselMerchTubes.css */
+.slider {
+    height: 300px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%; /* Adjust as needed */
+
+}
+img {
+    box-shadow: none !important;
+}
+
+.slider::before, .slider::after {
+    content: '';
+    height: 100px;
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+}
+
+.slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+
+.slider::before {
+    left: 0;
+    top: 0;
+}
+
+.slider .slide-track {
+    -webkit-animation: scroll 40s linear infinite;
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(300px * 14); /* Adjust based on the number of images */
+}
+
+.slider .slide {
+    width: 300px; /* Set a fixed width for each slide */
+}
+
+@media (max-width: 767px) {
+    .slider .slide {
+
+    width: 200px;
+    }
+    
+}
+
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+        
+    }
+    100% {
+         /* Adjust based on the number of images */
+         
+         transform: translateX(calc(-300px * 7));
+    }
+}
+
+@media (max-width: 767px) and (min-width: 500px) {
+    
+}

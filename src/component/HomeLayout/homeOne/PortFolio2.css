@@ -1,0 +1,54 @@
+
+ /* Add this CSS to your stylesheets */
+ .image-zoom {
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-zoom:hover {
+  transform: scale(1.05);
+}
+
+/* PortFolio2.css */
+
+/* PortFolio2.css */
+
+/* Add this style to ensure images maintain their aspect ratio */
+.image-container {
+height: auto;
+/* Set the fixed height */
+overflow:visible;
+}
+
+/* Add this style to the images */
+.image-container img {
+width: 120%;
+height: 120%;
+padding: 20px;
+object-fit: scale-down; /* or "contain" depending on your preference */
+}
+
+/* PortFolio2.css */
+
+/* Add these styles for the next and previous arrows */
+.slick-prev,
+.slick-next {
+font-size: 68px;
+ /* You can adjust the font size as needed */
+color: #EF5474; /* Set the color to black or any color you prefer */
+text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7); 
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+color: #EF5474; /* Set the hover color */
+}
+.slick-slide img {
+transform: scale(1.0); /* Adjust the scale factor as needed (e.g., 0.9 for 90% zoom) */
+transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+/* Apply the zoom effect on hover */
+.slick-slide:hover img {
+transform: scale(1); /* Set to original size on hover */
+}
+
