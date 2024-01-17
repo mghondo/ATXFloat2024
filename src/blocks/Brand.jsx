@@ -6,7 +6,7 @@ import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
 import BrandOne from "../elements/Brand";
-import BrandTwo from "../elements/BrandTwo";
+import BrandTwo from "../elements/BrandTwo"; 
 
 const Brand = () => {
     return (
