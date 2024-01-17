@@ -1,6 +1,4 @@
 import React from "react";
-import Slider from "react-slick";
-import { portfolioSlick2 } from "../../../page-demo/script";
 import { Link } from "react-router-dom";
 import "./Catalog.css"; // Import the CSS file
 

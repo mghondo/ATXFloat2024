@@ -8,7 +8,6 @@ import FooterTwo from "../component/footer/FooterTwo";
 import Helmet from "../component/common/Helmet";
 // import TeamOne from "../blocks/team/TeamOne";
 import Slider from "react-slick";
-import { slickDot } from "../page-demo/script";
 import ContactTwo from "../elements/contact/ContactTwo";
 import { FiHeadphones, FiMail, FiMapPin } from "react-icons/fi";
 import ServiceList from '../elements/service/ServiceList'
@@ -19,20 +18,10 @@ import Breadcrumb from "../elements/common/Breadcrumb";
 // import Header from "../component/header/Header";
 import { Parallax } from "react-parallax";
 
-import { portfolioSlick2 } from "../../../page-demo/script";
-
 import './interiorStyles.css';
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import NewContactForm from "../elements/contact/NewContactForm";
-// import NewStaffComp from "./NewStaffComp";
-import { testimonialActivation } from "../page-demo/script";
-import Portfolio from "../component/HomeLayout/homeOne/Portfolio";
-import PortFolio2 from "../component/HomeLayout/homeOne/PortFolio2";
-import StockAndMerch from "./StockandMerch";
-import NonTubeSlider from "../component/HomeLayout/homeOne/NonTubeSlider";
-import Catalog2 from "./Catalog";
 import StockAndMerch2 from "./StockAndMerch2";
 import CarouselMerchTubes from "./CarouselMerchTubes";
 import MerchCarousel from "./MerchCarousel";

@@ -7,7 +7,6 @@ import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
 import Slider from "react-slick";
 // import PortfolioList from "../elements/portfolio/PortfolioList";
-import { slickDot } from "../page-demo/script";
 // import { Link } from "react-router-dom";
 import PortfolioListNew from "../elements/portfolio/PortfolioListNew";
 import { Parallax } from "react-parallax";
