@@ -37,7 +37,7 @@ const StockAndMerch = () => {
               <div className="slick-space-gutter--15 slickdot--20">
                 <div className="row" style={{backgroundColor:'#f3edd1', paddingTop:'10px'}}>
                   {list.map((value, i) => (
-                    <div className="col-lg-4 col-md-6 col-12" key={i}>
+                    <div className="col-lg-4 col-md-6 col-12 stockmerchthumb" key={i}>
                       <div className="blog blog-style--1" style={{backgroundColor:'#f3edd1', borderRadius: '20px'}}>
                         <div className="thumbnail" style={{backgroundColor:'#f3edd1'}}>
                           <Link to={value.url}>

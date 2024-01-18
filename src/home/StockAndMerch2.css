@@ -32,7 +32,7 @@
 }
 
 .StockandMerchImg {
-  object-fit: cover !important;
+  object-fit: contain !important;
   /* transform: scale(0.55);  */
 }
 
@@ -68,18 +68,19 @@
   overflow: hidden;
   /* border-radius: 20px; */
 }
-@media (max-width: 767px) and (min-width: 400px)  {
+@media (max-width: 767px) and (min-width: 300px)  {
   .StockandMerchImg {
-    height: 300px !important;
-    /* object-fit: contain !important; */
-  }
-}
-@media (max-width: 767px) and (min-width: 450px)  {
-  .StockandMerchImg {
-    /* height: 300px !important; */
+    height: 250px !important;
     object-fit: contain !important;
   }
+  .stockmerchthumb {
+    height: 100px !important;
+  }
+  .blog-style--1, .content{
+    padding: 0px !important;
+  }
 }
+
 
 .blogtype {
   color: #ef5474;
