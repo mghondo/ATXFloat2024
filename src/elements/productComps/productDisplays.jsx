@@ -30,7 +30,7 @@ const SocialShare = [
 const floorDisplayPouch = [
     {
         image: '02',
-        bigImage: '/assets/images/NewImages10.23.2023/Product_Displays/Counter_Display_Float_Pouch.jpg',
+        bigImage: '/assets/images/NewImages10.23.2023/Product_Displays/Counter_Display_Float_Pouch.png',
         category: '',
         title: '',
         css: {},
@@ -40,21 +40,21 @@ const floorDisplayPouch = [
 const floorStands =[
     {
         image: '02',
-        bigImage: '/assets/images/NewImages10.23.2023/Product_Displays/Floor_Stand_Multi-Product_Angle.jpg',
+        bigImage: '/assets/images/NewImages10.23.2023/Product_Displays/Floor_Stand_Multi-Product_Angle.png',
         category: '',
         title: '',
         css: {},
     },
     {
         image: '02',
-        bigImage: '/assets/images/NewImages10.23.2023/Product_Displays/Floor_Stand_Float_Pouch.jpg',
+        bigImage: '/assets/images/NewImages10.23.2023/Product_Displays/Floor_Stand_Float_Pouch.png',
         category: '',
         title: '',
         css: {},
     },
     {
         image: '02',
-        bigImage: '/assets/images/NewImages10.23.2023/Product_Displays/Floor_Stand_Multi-Product.jpg',
+        bigImage: '/assets/images/NewImages10.23.2023/Product_Displays/Floor_Stand_Multi-Product.png',
         category: '',
         title: '',
         css: {},
@@ -64,7 +64,7 @@ const floorStands =[
 const sunglassStands =[ 
     {
         image: '02',
-        bigImage: '/assets/images/NewImages10.23.2023/Product_Displays/Counter_Display_Sunglass_Floaters.jpg',
+        bigImage: '/assets/images/NewImages10.23.2023/Product_Displays/Counter_Display_Sunglass_Floaters.png',
         category: '',
         title: '',
         css: {},
