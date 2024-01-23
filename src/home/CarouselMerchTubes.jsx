@@ -9,6 +9,57 @@ const shuffleArray = (array) => {
   }
 };
 
+const customTubes3 = [
+  '/assets/images/CUSTOM_TUBE_PHOTOS.mini/Custom-River-Tube_444.2.png',
+  `/assets/images/CUSTOM_TUBE_PHOTOS.mini/Custom-River-Tube_Andy's.2.png`,
+  '/assets/images/CUSTOM_TUBE_PHOTOS.mini/Custom-River-Tube_Bahnbrecker.2.png',
+  '/assets/images/CUSTOM_TUBE_PHOTOS.mini/Custom-River-Tube_Blind-Lemon.2.png',
+  `/assets/images/CUSTOM_TUBE_PHOTOS.mini/Custom-River-Tube_Chimy's-2.2.png`,
+  `/assets/images/CUSTOM_TUBE_PHOTOS.mini/Custom-River-Tube_Chimy's.2.png`,
+  '/assets/images/CUSTOM_TUBE_PHOTOS.mini/Custom-River-Tube_Corner-Tubes.2.png',
+  // `/assets/images/CUSTOM_TUBE_PHOTOS.mini/Custom-River-Tube_Don's-Blue.2.png`,
+  `/assets/images/CUSTOM_TUBE_PHOTOS.mini/Custom-River-Tube_Don's-Green.2.png`,
+  `/assets/images/CUSTOM_TUBE_PHOTOS.mini/Custom-River-Tube_Don's-Pink.2.png`,
+  `/assets/images/CUSTOM_TUBE_PHOTOS.mini/Custom-River-Tube_Ducky's.2.png`,
+  `/assets/images/CUSTOM_TUBE_PHOTOS.mini/Custom-River-Tube_Float-Fest.2.png`,
+  `/assets/images/CUSTOM_TUBE_PHOTOS.mini/Custom-River-Tube_Float-In.2.png`,
+  '/assets/images/CUSTOM_TUBE_PHOTOS.mini/Custom-River-Tube_Happy-Hollow.2.png',
+  `/assets/images/CUSTOM_TUBE_PHOTOS.mini/Custom-River-Tube_Independence-Brewing.2.png`,
+  `/assets/images/CUSTOM_TUBE_PHOTOS.mini/Custom-River-Tube_Indian-Head.2.png`,
+  `/assets/images/CUSTOM_TUBE_PHOTOS.mini/Custom-River-Tube_Landa-Falls.2.png`,
+  `/assets/images/CUSTOM_TUBE_PHOTOS.mini/Custom-River-Tube_Landa-River-Trips.2.png`,
+  `/assets/images/CUSTOM_TUBE_PHOTOS.mini/Custom-River-Tube_Lazy-LL.2.png`,
+  `/assets/images/CUSTOM_TUBE_PHOTOS.mini/Custom-River-Tube_Lions.2.png`,
+  `/assets/images/CUSTOM_TUBE_PHOTOS.mini/Custom-River-Tube_Meckel's.2.png`,
+  `/assets/images/CUSTOM_TUBE_PHOTOS.mini/Custom-River-Tube_Plainfield.2.png`,
+  `/assets/images/CUSTOM_TUBE_PHOTOS.mini/Custom-River-Tube_Rockin'-R.2.png`,
+  `/assets/images/CUSTOM_TUBE_PHOTOS.mini/Custom-River-Tube_Shot-Gun.2.png`,
+  `/assets/images/CUSTOM_TUBE_PHOTOS.mini/Custom-River-Tube_Son's.2.png`,
+  `/assets/images/CUSTOM_TUBE_PHOTOS.mini/Custom-River-Tube_Whitewater-Deep-Eddy-2.2.png`,
+  `/assets/images/CUSTOM_TUBE_PHOTOS.mini/Custom-River-Tube_Whitewater-Deep-Eddy.2.png`,
+  `/assets/images/CUSTOM_TUBE_PHOTOS.mini/Custom-River-Tube_Willies.2.png`,
+  `/assets/images/CUSTOM_TUBE_PHOTOS.mini/Custom-River-Tubes_Son's-Blue-River.2.png`,
+  `/assets/images/CUSTOM_TUBE_PHOTOS.mini/Custom-River-Tubes_Texas-Tubes-Rudy's.2.png`,
+  `/assets/images/CUSTOM_TUBE_PHOTOS.mini/Custom-Waterpark-Tube_Aquatica.2.png`,
+  `/assets/images/CUSTOM_TUBE_PHOTOS.mini/River-Floater-Tube_ATX-Float-Blue.2.png`,
+  `/assets/images/CUSTOM_TUBE_PHOTOS.mini/River-Floater-Tube_ATX-Float-Camo-Blue.2.png`,
+  `/assets/images/CUSTOM_TUBE_PHOTOS.mini/River-Floater-Tube_ATX-Float-Camo-Green.2.png`,
+  `/assets/images/CUSTOM_TUBE_PHOTOS.mini/River-Floater-Tube_ATX-Float-Camo-Pink.2.png`,
+  `/assets/images/CUSTOM_TUBE_PHOTOS.mini/River-Floater-Tube_ATX-Float-Orange.2.png`,
+  `/assets/images/CUSTOM_TUBE_PHOTOS.mini/River-Floater-Tube_ATX-Float-Pink.2.png`,
+  `/assets/images/CUSTOM_TUBE_PHOTOS.mini/River-Tube_ATX-Float-Blue.2.png`,
+  `/assets/images/CUSTOM_TUBE_PHOTOS.mini/River-Tube_ATX-Float-Coral.2.png`,
+  `/assets/images/CUSTOM_TUBE_PHOTOS.mini/River-Tube_ATX-Float-Orange.2.png`,
+  `/assets/images/CUSTOM_TUBE_PHOTOS.mini/River-Tube_ATX-Float-STTB.2.png`,
+  `/assets/images/CUSTOM_TUBE_PHOTOS.mini/River-Tube_ATX-Float-STTO.2.png`,
+  '/assets/images/CUSTOM_TUBE_PHOTOS.mini/Custom-Waterpark-Tube_Aquatica.2.png',
+  // '/assets/images/CUSTOM_TUBE_PHOTOS.mini/Custom-Waterpark-Tube_Beach-Park-Double-Baby.2.png',
+  // '/assets/images/CUSTOM_TUBE_PHOTOS.mini/Custom-Waterpark-Tube_Beach-Park-Double.2.png',
+  '/assets/images/CUSTOM_TUBE_PHOTOS.mini/Custom-Waterpark-Tube_Beach-Park.2.png',
+  // '/assets/images/CUSTOM_TUBE_PHOTOS.mini/Custom-Waterpark-Tube_Six-Flags-Double.2.png',
+  // '/assets/images/CUSTOM_TUBE_PHOTOS.mini/Waterpark-Tube-Double JR-Clear_ATX-Float-DC42-S.2.png',
+];
+
 const customTubes2 = [
   '/assets/images/CUSTOM_TUBE_PHOTOS/Custom-River-Tube_444.png',
   `/assets/images/CUSTOM_TUBE_PHOTOS/Custom-River-Tube_Andy's.png`,
@@ -59,15 +110,16 @@ const customTubes2 = [
   // '/assets/images/CUSTOM_TUBE_PHOTOS/Custom-Waterpark-Tube_Six-Flags-Double.png',
   // '/assets/images/CUSTOM_TUBE_PHOTOS/Waterpark-Tube-Double JR-Clear_ATX-Float-DC42-S.png',
 ];
-shuffleArray(customTubes2);
+// shuffleArray(customTubes2);
+shuffleArray(customTubes3);
 
 const CarouselMerchTubes = () => {
-  const trackWidth2 = `${customTubes2.length * 300}px`; // Assuming each image has a width of 300px
+  const trackWidth2 = `${customTubes3.length * 300}px`; // Assuming each image has a width of 300px
 
   return (
     <div className="slider">
       <div className="slide-track" style={{ width: trackWidth2 }}>
-        {customTubes2.map((imageUrl2, index) => (
+        {customTubes3.map((imageUrl2, index) => (
           <div className="slide" key={index}>
             <a href="/customrivertubes">
               <img

@@ -4,3 +4,4 @@ build/
 *.zip
 *.pages
 *.pdf
+/build
