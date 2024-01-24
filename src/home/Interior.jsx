@@ -21,7 +21,6 @@ const contactAreaStyle = {
     backgroundColor: '#f3edd1',
     borderRadius: '10px'
 }
-
 const footerBackground = {
     backgroundColor: '#44494e',
     padding: '60px'
@@ -42,7 +41,6 @@ const list = [
         title: 'Get your custom made river tubes here!!',
         link: '/portfolio#riverTubes'
     },
-
     {
         url: '/assets/images/NewImages10.23.2023/Merchandise/Float_Pouch_Solid/Float_Pouch_Solid_Assortment.png',
         image: 'image-3',
@@ -50,7 +48,6 @@ const list = [
         title: 'Every adventure needs extra gear. Click here',
         link: '/merchandise'
     },
-
 ]
 class InteriorLanding extends Component {
 
@@ -146,7 +143,6 @@ class InteriorLanding extends Component {
 
                                         </Scrollspy>
                                     </nav>
-
                                     <div className="humberger-menu d-block d-lg-none pl--20">
                                         <span onClick={this.menuTrigger} className="menutrigger text-white"><FiMenu /></span>
                                     </div>
@@ -159,12 +155,9 @@ class InteriorLanding extends Component {
                             {/*  )} */}
                     </div>
                 </header>
-
             <LazyLoad height={200} offset={100}>
                 <StockAndMerch2 list={list} ClassFromParent = 'col-lg-4 col-md-6 col-12'/>
             </LazyLoad>
-
-
                 <div className="fix">
                     <div className="service-area creative-service-wrapper bg_color--5 tubeHeaderSec" style={{ paddingTop: '10px', backgroundColor: '#f3edd1', paddingBottom:'0px' }} >
                         <div className="container">
@@ -182,20 +175,12 @@ class InteriorLanding extends Component {
                         </div>
                     </div>
                 </div>
-
             <LazyLoad height={200} offset={100}>
             <CarouselMerchTubes/>
             </LazyLoad>
-
-
-  
-            
-
-
             <div className="fix">
                     <div className="service-area creative-service-wrapper bg_color--5" style={{ paddingTop: '10px', backgroundColor: '#f3edd1', paddingBottom:'0px' }} >
                         <div className="container merchclass">
-
                             <div className="row">
                                 <div className="col-lg-12">
                                 <a href="/customrivertubes">
@@ -210,14 +195,12 @@ class InteriorLanding extends Component {
                         </div>
                     </div>
                 </div>
-
            <LazyLoad height={200} offset={100}>
             <MerchCarousel/>
             </LazyLoad>
                 <div id="contact" style={contactAreaStyle} >
                     <ContactTwo />
                 </div>
-
                 <div className="rn-finding-us-area rn-finding-us bg_color--1" style={{  backgroundColor: '#f3edd1' }}>
                     <div className="inner">
                         <div className="content-wrapper" style={{paddingBottom: '20px',}}>
@@ -225,25 +208,19 @@ class InteriorLanding extends Component {
                             </div>
                         </div>
                         <div className="thumbnail">
-
         </div>
                     </div>
                 </div>
-
                 <div className="rn-contact-top-area ptb--120 bg_color--5" style={footerBackground}>
                     <div className="container">
-
                         <div className="row">
-
                             <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt_md--50 mt_sm--50" data-aos="fade-left" data-aos-duration="750">
                                 <div className="rn-address" style={{ backgroundColor: '#f3edd1' }}>
                                     <div className="icon" style={{ color: '#EF5474' }}>
                                         <FiHeadphones />
                                     </div>
-
                                 <div className="inner sameHeight" style={{color: 'white',}}>
-                                <h4 style={{ fontFamily: 'Brice-Black', fontSize: '30px', color: '#EF5474', }} className="title">Info</h4>
-                                        
+                                <h4 style={{ fontFamily: 'Brice-Black', fontSize: '30px', color: '#EF5474', }} className="title">Info</h4>                                        
                                     <MiniContactInfo/>
                                     </div>
                                 </div>
@@ -288,9 +265,63 @@ class InteriorLanding extends Component {
                         <FiChevronUp style={{ color: '#EF5474' }} />
                     </ScrollToTop>
                 </div>
-                {/* End Back To Top */}
             </Fragment>
+            <div style={{display:'none'}}>
+            <img src='/assets/images/CUSTOM_TUBE_PHOTOS/Custom-River-Tube_444.png' alt='Custom River Tube 1' />
+      <img src="/assets/images/CUSTOM_TUBE_PHOTOS/Custom-River-Tube_Andy's.png" alt="Custom River Tube Andy's" />
+      <img src='/assets/images/CUSTOM_TUBE_PHOTOS/Custom-River-Tube_Bahnbrecker.png' alt='Custom River Tube Bahnbrecker' />
+      <img src='/assets/images/CUSTOM_TUBE_PHOTOS/Custom-River-Tube_Blind-Lemon.png' alt='Custom River Tube Blind Lemon' />
+      <img src="/assets/images/CUSTOM_TUBE_PHOTOS/Custom-River-Tube_Chimy's-2.png" alt="Custom River Tube Chimy's 2" />
+      <img src="/assets/images/CUSTOM_TUBE_PHOTOS/Custom-River-Tube_Chimy's.png" alt="Custom River Tube Chimy's" />
+      <img src='/assets/images/CUSTOM_TUBE_PHOTOS/Custom-River-Tube_Corner-Tubes.png' alt='Custom River Tube Corner Tubes' />
+      <img src="/assets/images/CUSTOM_TUBE_PHOTOS/Custom-River-Tube_Don's-Blue.png" alt="Custom River Tube Don's Blue" />
+      <img src="/assets/images/CUSTOM_TUBE_PHOTOS/Custom-River-Tube_Don's-Green.png" alt="Custom River Tube Don's Green" />
+      <img src="/assets/images/CUSTOM_TUBE_PHOTOS/Custom-River-Tube_Don's-Pink.png" alt="Custom River Tube Don's Pink" />
+      <img src="/assets/images/CUSTOM_TUBE_PHOTOS/Custom-River-Tube_Ducky's.png" alt="Custom River Tube Ducky's" />
+      <img src="/assets/images/CUSTOM_TUBE_PHOTOS/Custom-River-Tube_Float-Fest.png" alt="Custom River Tube Float Fest" />
+      <img src="/assets/images/CUSTOM_TUBE_PHOTOS/Custom-River-Tube_Float-In.png" alt="Custom River Tube Float In" />
+      <img src='/assets/images/CUSTOM_TUBE_PHOTOS/Custom-River-Tube_Happy-Hollow.png' alt='Custom River Tube Happy Hollow' />
+      <img src="/assets/images/CUSTOM_TUBE_PHOTOS/Custom-River-Tube_Independence-Brewing.png" alt="Custom River Tube Independence Brewing" />
+      <img src="/assets/images/CUSTOM_TUBE_PHOTOS/Custom-River-Tube_Indian-Head.png" alt="Custom River Tube Indian Head" />
+      <img src="/assets/images/CUSTOM_TUBE_PHOTOS/Custom-River-Tube_Landa-Falls.png" alt="Custom River Tube Landa Falls" />
+      <img src="/assets/images/CUSTOM_TUBE_PHOTOS/Custom-River-Tube_Landa-River-Trips.png" alt="Custom River Tube Landa River Trips" />
+      <img src="/assets/images/CUSTOM_TUBE_PHOTOS/Custom-River-Tube_Lazy-LL.png" alt="Custom River Tube Lazy LL" />
+      <img src="/assets/images/CUSTOM_TUBE_PHOTOS/Custom-River-Tube_Lions.png" alt="Custom River Tube Lions" />
+      <img src="/assets/images/CUSTOM_TUBE_PHOTOS/Custom-River-Tube_Meckel's.png" alt="Custom River Tube Meckel's" />
+      <img src="/assets/images/CUSTOM_TUBE_PHOTOS/Custom-River-Tube_Plainfield.png" alt="Custom River Tube Plainfield" />
+      <img src="/assets/images/CUSTOM_TUBE_PHOTOS/Custom-River-Tube_Rockin'-R.png" alt="Custom River Tube Rockin' R" />
+      <img src="/assets/images/CUSTOM_TUBE_PHOTOS/Custom-River-Tube_Shot-Gun.png" alt="Custom River Tube Shot Gun" />
+      <img src="/assets/images/CUSTOM_TUBE_PHOTOS/Custom-River-Tube_Son's.png" alt="Custom River Tube Son's" />
+      <img src="/assets/images/CUSTOM_TUBE_PHOTOS/Custom-River-Tube_Whitewater-Deep-Eddy-2.png" alt="Custom River Tube Whitewater Deep Eddy 2" />
+      <img src="/assets/images/CUSTOM_TUBE_PHOTOS/Custom-River-Tube_Whitewater-Deep-Eddy.png" alt="Custom River Tube Whitewater Deep Eddy" />
+      <img src="/assets/images/CUSTOM_TUBE_PHOTOS/Custom-River-Tube_Willies.png" alt="Custom River Tube Willies" />
+      <img src="/assets/images/CUSTOM_TUBE_PHOTOS/Custom-River-Tubes_Son's-Blue-River.png" alt="Custom River Tubes Son's Blue River" />
+      <img src="/assets/images/CUSTOM_TUBE_PHOTOS/Custom-River-Tubes_Texas-Tubes-Rudy's.png" alt="Custom River Tubes Texas Tubes Rudy's" />
+      <img src="/assets/images/CUSTOM_TUBE_PHOTOS/Custom-Waterpark-Tube_Aquatica.png" alt="Custom Waterpark Tube Aquatica" />
+      <img src="/assets/images/CUSTOM_TUBE_PHOTOS/River-Floater-Tube_ATX-Float-Blue.png" alt="River Floater Tube ATX Float Blue" />
+      <img src="/assets/images/CUSTOM_TUBE_PHOTOS/River-Floater-Tube_ATX-Float-Camo-Blue.png" alt="River Floater Tube ATX Float Camo Blue" />
+      <img src="/assets/images/CUSTOM_TUBE_PHOTOS/River-Floater-Tube_ATX-Float-Camo-Green.png" alt="River Floater Tube ATX Float Camo Green" />
+      <img src="/assets/images/CUSTOM_TUBE_PHOTOS/River-Floater-Tube_ATX-Float-Camo-Pink.png" alt="River Floater Tube ATX Float Camo Pink" />
+      <img src="/assets/images/CUSTOM_TUBE_PHOTOS/River-Floater-Tube_ATX-Float-Orange.png" alt="River Floater Tube ATX Float Orange" />
+      <img src="/assets/images/CUSTOM_TUBE_PHOTOS/River-Floater-Tube_ATX-Float-Pink.png" alt="River Floater Tube ATX Float Pink" />
+      <img src="/assets/images/CUSTOM_TUBE_PHOTOS/River-Tube_ATX-Float-Blue.png" alt="River Tube ATX Float Blue" />
+      <img src="/assets/images/CUSTOM_TUBE_PHOTOS/River-Tube_ATX-Float-Coral.png" alt="River Tube ATX Float Coral" />
+      <img src="/assets/images/CUSTOM_TUBE_PHOTOS/River-Tube_ATX-Float-Orange.png" alt="River Tube ATX Float Orange" />
+
+      <img src="/assets/images/CUSTOM_TUBE_PHOTOS/River-Tube_ATX-Float-STTO.png" alt="River Tube ATX Float STTO" />
+      <img src="/assets/images/CUSTOM_TUBE_PHOTOS/Custom-Waterpark-Tube_Aquatica.png" alt="Custom Waterpark Tube Aquatica" />
+      {/* Uncomment the following lines if needed */}
+      <img src="/assets/images/CUSTOM_TUBE_PHOTOS/Custom-Waterpark-Tube_Beach-Park-Double-Baby.png" alt="Custom Waterpark Tube Beach Park Double Baby" />
+      <img src="/assets/images/CUSTOM_TUBE_PHOTOS/Custom-Waterpark-Tube_Beach-Park-Double.png" alt="Custom Waterpark Tube Beach Park Double" />
+      <img src="/assets/images/CUSTOM_TUBE_PHOTOS/Custom-Waterpark-Tube_Beach-Park.png" alt="Custom Waterpark Tube Beach Park" />
+      {/* Uncomment the following lines if needed */}
+      <img src="/assets/images/CUSTOM_TUBE_PHOTOS/Custom-Waterpark-Tube_Six-Flags-Double.png" alt="Custom Waterpark Tube Six Flags Double" />
+      <img src="/assets/images/CUSTOM_TUBE_PHOTOS/Waterpark-Tube-Double JR-Clear_ATX-Float-DC42-S.png" alt="Waterpark Tube Double JR Clear ATX Float DC42 S" /> 
+   
+            <MerchCarousel/>
+             </div>
             </LazyLoad>
+
         )
     }
 }
