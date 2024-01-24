@@ -51,11 +51,11 @@ const customTubes3 = [
   `/assets/images/CUSTOM_TUBE_PHOTOS.mini/River-Tube_ATX-Float-Coral.2.png`,
   `/assets/images/CUSTOM_TUBE_PHOTOS.mini/River-Tube_ATX-Float-Orange.2.png`,
   `/assets/images/CUSTOM_TUBE_PHOTOS.mini/River-Tube_ATX-Float-STTB.2.png`,
-  `/assets/images/CUSTOM_TUBE_PHOTOS.mini/River-Tube_ATX-Float-STTO.2.png`,
+  // `/assets/images/CUSTOM_TUBE_PHOTOS.mini/River-Tube_ATX-Float-STTO.2.png`,
   '/assets/images/CUSTOM_TUBE_PHOTOS.mini/Custom-Waterpark-Tube_Aquatica.2.png',
   // '/assets/images/CUSTOM_TUBE_PHOTOS.mini/Custom-Waterpark-Tube_Beach-Park-Double-Baby.2.png',
   // '/assets/images/CUSTOM_TUBE_PHOTOS.mini/Custom-Waterpark-Tube_Beach-Park-Double.2.png',
-  '/assets/images/CUSTOM_TUBE_PHOTOS.mini/Custom-Waterpark-Tube_Beach-Park.2.png',
+  // '/assets/images/CUSTOM_TUBE_PHOTOS.mini/Custom-Waterpark-Tube_Beach-Park.2.png',
   // '/assets/images/CUSTOM_TUBE_PHOTOS.mini/Custom-Waterpark-Tube_Six-Flags-Double.2.png',
   // '/assets/images/CUSTOM_TUBE_PHOTOS.mini/Waterpark-Tube-Double JR-Clear_ATX-Float-DC42-S.2.png',
 ];
