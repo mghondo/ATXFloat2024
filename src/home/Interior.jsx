@@ -42,7 +42,8 @@ const list = [
         link: '/portfolio#riverTubes'
     },
     {
-        url: '/assets/images/NewImages10.23.2023/Merchandise/Float_Pouch_Solid/Float_Pouch_Solid_Assortment.png',
+        // url: '/assets/images/NewImages10.23.2023/Merchandise/Float_Pouch_Solid/Float_Pouch_Solid_Assortment.png',
+        url: '/assets/images/Merch.mini/Float_Pouch_Solid_Assortment.png',
         image: 'image-3',
         category: 'Merchandise',
         title: 'Every adventure needs extra gear. Click here',
