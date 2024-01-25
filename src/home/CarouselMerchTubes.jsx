@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { FixedSizeList as List } from 'react-window';
 import './CarouselMerchTubes.css';
+import LazyLoad from 'react-lazyload';
 
 const shuffleArray = (array) => {
   for (let i = array.length - 1; i > 0; i--) {
@@ -131,7 +132,7 @@ const CarouselMerchTubes = () => {
   const trackWidth2 = `${customTubes3.length * 300}px`; // Assuming each image has a width of 300px
 
   return (
-    <>
+    <LazyLoad height={200} offset={100}> 
       <div className={`fix ${isComponentReady ? 'ready' : ''}`}>
         <div className="service-area creative-service-wrapper bg_color--5 tubeHeaderSec" style={{ paddingTop: '10px', backgroundColor: '#f3edd1', paddingBottom: '0px' }}>
           <div className="container">
@@ -167,7 +168,7 @@ const CarouselMerchTubes = () => {
           ))}
         </div>
       </div>
-    </>
+      </LazyLoad>
   );
 };
 
