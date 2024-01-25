@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { FixedSizeList as List } from 'react-window';
 import './CarouselMerchTubes.css';
 
@@ -114,26 +114,60 @@ const customTubes2 = [
 shuffleArray(customTubes3);
 
 const CarouselMerchTubes = () => {
+  const [imagesLoaded, setImagesLoaded] = useState(0);
+  const [isComponentReady, setIsComponentReady] = useState(false);
+
+  const handleImageLoad = () => {
+    setImagesLoaded((prevCount) => prevCount + 1);
+  };
+
+  useEffect(() => {
+    if (imagesLoaded === customTubes3.length) {
+      // All images are loaded, set the component as ready
+      setIsComponentReady(true);
+    }
+  }, [imagesLoaded]);
+
   const trackWidth2 = `${customTubes3.length * 300}px`; // Assuming each image has a width of 300px
 
   return (
-    <div className="slider">
-      <div className="slide-track" style={{ width: trackWidth2 }}>
-        {customTubes3.map((imageUrl2, index) => (
-          <div className="slide" key={index}>
-            <a href="/customrivertubes">
-              <img
-                style={{ boxShadow: 'none'}}
-                className=''
-                src={imageUrl2}
-                // width="300"
-                alt={`Custom Tube ${index + 1}`}
-              />
-            </a>
+    <>
+      <div className={`fix ${isComponentReady ? 'ready' : ''}`}>
+        <div className="service-area creative-service-wrapper bg_color--5 tubeHeaderSec" style={{ paddingTop: '10px', backgroundColor: '#f3edd1', paddingBottom: '0px' }}>
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12">
+                <a href="/customrivertubes">
+                  <div className="section-title text-center service-style--3 mb--30 tubeHeaderSec" style={{ borderRadius: '25px' }}>
+                    <div className="animated-text" style={{ animation: 'fontSizeAnimation 2s infinite alternate' }}>
+                      <h2 className="title customTube" data-aos="fade-up" data-aos-duration="750" id="customTube">Custom Tubes</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
           </div>
-        ))}
+        </div>
       </div>
-    </div>
+
+      <div className={`slider ${isComponentReady ? 'ready' : ''}`}>
+        <div className="slide-track" style={{ width: trackWidth2 }}>
+          {customTubes3.map((imageUrl2, index) => (
+            <div className="slide" key={index}>
+              <a href="/customrivertubes">
+                <img
+                  onLoad={handleImageLoad}
+                  style={{ boxShadow: 'none' }}
+                  className=''
+                  src={imageUrl2}
+                  alt={`Custom Tube ${index + 1}`}
+                />
+              </a>
+            </div>
+          ))}
+        </div>
+      </div>
+    </>
   );
 };
 

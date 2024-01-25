@@ -160,23 +160,7 @@ class InteriorLanding extends Component {
                 <StockAndMerch2 list={list} ClassFromParent = 'col-lg-4 col-md-6 col-12'/>
             </LazyLoad>
             <LazyLoad height={200} offset={100}>
-                <div className="fix">
-                    <div className="service-area creative-service-wrapper bg_color--5 tubeHeaderSec" style={{ paddingTop: '10px', backgroundColor: '#f3edd1', paddingBottom:'0px' }} >
-                        <div className="container">
-                            <div className="row">
-                                <div className="col-lg-12">
-                                <a href="/customrivertubes">
-                                           <div className="section-title text-center service-style--3 mb--30 tubeHeaderSec" style={{borderRadius: '25px'}}>
-                                               <div className="animated-text" style={{ animation: 'fontSizeAnimation 2s infinite alternate' }}>                                        
-                                                <h2 className="title customTube" data-aos="fade-up" data-aos-duration="750" id="customTube">Custom Tubes</h2>
-                                                </div>
-                                            </div>
-                                       </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
         
             <CarouselMerchTubes/>
             </LazyLoad>
