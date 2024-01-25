@@ -21,7 +21,7 @@ const ImageGallery = ({ photos }) => {
     <div className="image-gallery">
       {photos.map((photo, index) => (
         <div key={index} className="gallery-item" onClick={() => openLightbox(index)}>
-          <img src={photo.bigImage} alt={`Gallery Item ${index}`} />
+          <img src={photo.smallImage} alt={`Gallery Item ${index}`} />
         </div>
       ))}
 
