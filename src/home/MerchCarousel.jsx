@@ -29,30 +29,42 @@ const awesomeGear = [
 
   ];
   
+  const awesomeGear2 = [
+    '/assets/images/Merch.mini/Bevie_Sling_Assorted.png',
+    '/assets/images/Merch.mini/Cool_Jug_Assorted.png',
+    '/assets/images/Merch.mini/Drawstring_Bag_Assorted.png',
+    '/assets/images/Merch.mini/Dry_Bag_15L_Holographic.png',
+    '/assets/images/Merch.mini/Dry_Bag_Nylon_10L_Assorted_Camo.png',
+    '/assets/images/Merch.mini/Dry_Bag_Nylon_10L_Assorted_Solid.png',
+    '/assets/images/Merch.mini/Dry_Bag_PVC_15L_Solid_Assortment.png',
+    '/assets/images/Merch.mini/Dry_Bag_PVC_15L_Translucent_Assortment.png',
+    '/assets/images/Merch.mini/Float_Pouch_Camo_Assortment.png',
+    '/assets/images/Merch.mini/Float_Pouch_Holographic_Assortment.png',
+    '/assets/images/Merch.mini/Float_Pouch_Solid_Assortment.png',
+    '/assets/images/Merch.mini/Float_Pouch_USA_Package.png',
+  ];
 
-
-shuffleArray(awesomeGear);
+shuffleArray(awesomeGear2);
 
 const App = () => {
-    const trackWidth = `${awesomeGear.length * 300}px`; // Assuming each image has a width of 300px
-  
-    return (
-      <div className="slider2">
-        <div className="slide-track2" style={{ width: trackWidth }}>
-          {awesomeGear.map((imageUrl, index) => (
-            <div className="slide2" key={index}>
-              <a href="/merchandise">
-                <img
-                  src={imageUrl}
-                  // width="300"
-                  alt={`Awesome Gear Image ${index + 1}`}
-                />
-              </a>
-            </div>
-          ))}
-        </div>
+  const trackWidth = `${awesomeGear2.length * 300}px`; // Assuming each image has a width of 300px
+
+  return (
+    <div className="slider2">
+      <div className="slide-track2" style={{ width: trackWidth }}>
+        {awesomeGear2.map((imageUrl, index) => ( // Use awesomeGear2 instead of awesomeGear
+          <div className="slide2" key={index}>
+            <a href="/merchandise">
+              <img
+                src={imageUrl}
+                alt={`Awesome Gear Image ${index + 1}`}
+              />
+            </a>
+          </div>
+        ))}
       </div>
-    );
-  };
+    </div>
+  );
+};
   
   export default App;
