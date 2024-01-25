@@ -28,14 +28,14 @@ const footerBackground = {
 const customImage = '/assets/images/bg/CustomTubeBanner.png'
 const list = [
     {
-        url: '/assets/images/NewImages10.23.2023/TUBES/Tubes_Single_Translucent_Blue_STB48/Tubes_Single_Translucent_Blue_STB48_Front.png',
+        url: '/assets/images/NewImages10.23.2023/TUBES/Tubes_Single_Translucent_Blue_STB48/Tubes_Single_Translucent_Blue_STB48_Front.mini.png',
         image: 'image-2',
         category: 'Waterpark Tubes',
         title: 'Get tubes for your waterpark here!',
         link: '/portfolio#parkTubes'
     },
     {
-        url: '/assets/images/NewImages10.23.2023/TUBES/Tubes_Single_Blue_STTO/Tubes_Single Blue_STTB_Front.png',
+        url: '/assets/images/NewImages10.23.2023/TUBES/Tubes_Single_Blue_STTO/Tubes_Single Blue_STTB_Front.mini.png',
         image: 'image-1',
         category: 'River Tubes',
         title: 'Get your custom made river tubes here!!',
@@ -177,7 +177,7 @@ class InteriorLanding extends Component {
                         </div>
                     </div>
                 </div>
-            
+        
             <CarouselMerchTubes/>
             </LazyLoad>
             <div className="fix">
