@@ -12,7 +12,7 @@
 .image-container img {
   width: auto;
   height: 100%;
-  transform: scale(0.55); 
+  transform: scale(0.65); 
   object-fit: contain;
  /* Keep this as "contain" */
 /* Zoom out by 15% (100% - 15%) */
@@ -21,7 +21,7 @@
 
 /* Zoom effect on hover */
 .image-container img:hover {
-  transform: scale(1); /* Reset to normal scale on hover */
+  transform: scale(.75); /* Reset to normal scale on hover */
 }
 
 .w-100 {
