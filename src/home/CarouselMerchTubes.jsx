@@ -132,20 +132,18 @@ const CarouselMerchTubes = () => {
   const trackWidth2 = `${customTubes3.length * 300}px`; // Assuming each image has a width of 300px
 
   return (
-    <LazyLoad height={200} offset={100}> 
-      <div className={`fix ${isComponentReady ? 'ready' : ''}`}>
-        <div className="service-area creative-service-wrapper bg_color--5 tubeHeaderSec" style={{ paddingTop: '10px', backgroundColor: '#f3edd1', paddingBottom: '0px' }}>
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-12">
-                <a href="/customrivertubes">
-                  <div className="section-title text-center service-style--3 mb--30 tubeHeaderSec" style={{ borderRadius: '25px' }}>
-                    <div className="animated-text" style={{ animation: 'fontSizeAnimation 2s infinite alternate' }}>
-                      <h2 className="title customTube" data-aos="fade-up" data-aos-duration="750" id="customTube">Custom Tubes</h2>
-                    </div>
+    <div className={`fix ${isComponentReady ? 'ready' : ''}`}>
+      <div className="service-area creative-service-wrapper bg_color--5 tubeHeaderSec" style={{ paddingTop: '10px', backgroundColor: '#f3edd1', paddingBottom: '0px' }}>
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <a href="/customrivertubes">
+                <div className="section-title text-center service-style--3 mb--30 tubeHeaderSec" style={{ borderRadius: '25px' }}>
+                  <div className="animated-text" style={{ animation: 'fontSizeAnimation 2s infinite alternate' }}>
+                    <h2 className="title customTube" data-aos="fade-up" data-aos-duration="750" id="customTube">Custom Tubes</h2>
                   </div>
-                </a>
-              </div>
+                </div>
+              </a>
             </div>
           </div>
         </div>
@@ -168,7 +166,7 @@ const CarouselMerchTubes = () => {
           ))}
         </div>
       </div>
-      </LazyLoad>
+    </div>
   );
 };
 
