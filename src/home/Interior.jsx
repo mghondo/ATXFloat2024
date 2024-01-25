@@ -159,11 +159,11 @@ class InteriorLanding extends Component {
             <LazyLoad height={200} offset={100}>
                 <StockAndMerch2 list={list} ClassFromParent = 'col-lg-4 col-md-6 col-12'/>
             </LazyLoad>
-            <LazyLoad height={200} offset={100}>
+            {/* <LazyLoad height={200} offset={100}> */}
 
         
             <CarouselMerchTubes/>
-            </LazyLoad>
+            {/* </LazyLoad> */}
             <div className="fix">
                     <div className="service-area creative-service-wrapper bg_color--5" style={{ paddingTop: '10px', backgroundColor: '#f3edd1', paddingBottom:'0px' }} >
                         <div className="container merchclass">
