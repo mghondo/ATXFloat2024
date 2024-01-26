@@ -23,7 +23,7 @@ const Catalog3 = ({ list, ChangeFromParent }) => {
                 <img className="w-100 merchImage" src={value.url} alt="Blog Images" />
               </div>
               <div className="content">
-                <p className="blogtype" style={{ color: '#EF5474', fontSize: '2.0rem', paddingBottom: '0px', fontFamily: 'Brice-Black', textAlign: 'center', textShadow: '2px 2px 4px rgba(0, 0, 0, 0.6)' }}>{value.category}</p>
+                <p className="blogtype" style={{ color: '#EF5474', fontSize: '2.0rem', paddingBottom: '0px', textAlign: 'center', textShadow: '2px 2px 4px rgba(0, 0, 0, 0.6)' }}>{value.category}</p>
                 <div className="blog-btn">
                   {/* <span className="rn-btn text-white">Read More</span> */}
                 </div>

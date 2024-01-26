@@ -20,6 +20,10 @@
 .blogtype, a, a:visited {
   color: #EF5474;
 }
+
+.blogtype{
+  font-family: Brice-Light !important;
+}
 .container {
     width: 100%;
 }
@@ -44,6 +48,9 @@
     }
     .merchImage {
       object-fit: contain !important;
+    }
+    .blogtype {
+      font-family: 'Brice-Black' !important;
     }
   }
 
