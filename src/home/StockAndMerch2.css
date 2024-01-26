@@ -17,6 +17,9 @@
   .blog-style--1 {
     margin-bottom: 0;
   }
+  .blogtype {
+    margin-bottom: 100px !important;
+  }
 }
 
 .col-lg-4.col-md-6.col-12 {
@@ -28,6 +31,7 @@
   .col-lg-4.col-md-6.col-12 {
     margin-top: 25px; /* Margin-top for mobile mode */
     height: 300px !important;
+   
   }
 }
 
@@ -78,6 +82,18 @@
   }
   .blog-style--1, .content{
     padding: 0px !important;
+  }
+
+}
+@media (max-width: 575px) and (min-width: 300px)  {
+  .mainThreeTubes{
+    height: 200px !important;
+  }
+  .blogtype { 
+    margin-bottom: 0px !important;
+  }
+  .content { 
+    margin-bottom: 0px !important;
   }
 }
 
