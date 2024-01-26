@@ -278,7 +278,8 @@ const awesomeGear = [
   ];
 const backGroundBrown = {
     backgroundColor: '#f3edd1',
-    padding: '0px'
+    paddingTop: '10px',
+    marginTop: '25px'
 }
 
 // const contactAreaStyle = {
