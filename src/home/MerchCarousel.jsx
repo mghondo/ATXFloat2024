@@ -21,7 +21,7 @@ const awesomeGear = [
     '/assets/images/NewImages10.23.2023/Merchandise/Dry_Bag_PVC_15L_Translucent/Dry_Bag_PVC_15L_Translucent_Assortment.png',
     '/assets/images/NewImages10.23.2023/Merchandise/Float_Pouch_Camo/Float_Pouch_Camo_Assortment.png',
     '/assets/images/NewImages10.23.2023/Merchandise/Float_Pouch_Holographic/Float_Pouch_Holographic_Assortment.png',
-    '/assets/images/NewImages10.23.2023/Merchandise/Float_Pouch_Solid/Float_Pouch_Solid_Assortment.png',
+    // '/assets/images/NewImages10.23.2023/Merchandise/Float_Pouch_Solid/Float_Pouch_Solid_Assortment.png',
     '/assets/images/NewImages10.23.2023/Merchandise/Goggles_Adult/Goggles_Adult_Blue-Blue_Metalic.png',
     '/assets/images/NewImages10.23.2023/Merchandise/Goggles_Kids/Goggles_Kids_Package.png',
     '/assets/images/NewImages10.23.2023/Merchandise/Sunglass_Floaters/Sunglass_Floaters_Assorted.png',
@@ -40,7 +40,7 @@ const awesomeGear = [
     '/assets/images/Merch.mini/Dry_Bag_PVC_15L_Translucent_Assortment.png',
     '/assets/images/Merch.mini/Float_Pouch_Camo_Assortment.png',
     '/assets/images/Merch.mini/Float_Pouch_Holographic_Assortment.png',
-    '/assets/images/Merch.mini/Float_Pouch_Solid_Assortment.png',
+    // '/assets/images/Merch.mini/Float_Pouch_Solid_Assortment.png',
     '/assets/images/Merch.mini/Float_Pouch_USA_Package.png',
   ];
 
