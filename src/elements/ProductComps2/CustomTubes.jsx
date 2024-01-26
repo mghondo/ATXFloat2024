@@ -255,14 +255,6 @@ const photos = [
     },
     {
         image: '02',
-        bigImage: `/assets/images/CUSTOM_TUBE_PHOTOS/Custom-Waterpark-Tube_Aquatica.png`,
-        smallImage: `/assets/images/CUSTOM_TUBE_PHOTOS.mini/Custom-River-Tubes_Texas-Tubes-Rudy's.2.png`,
-        category: '',
-        title: '',
-        css: {}, // Define the CSS properties as an object
-    },
-    {
-        image: '02',
         bigImage: `/assets/images/CUSTOM_TUBE_PHOTOS/River-Floater-Tube_ATX-Float-Blue.png`,
         smallImage: '/assets/images/CUSTOM_TUBE_PHOTOS.mini/River-Floater-Tube_ATX-Float-Blue.2.png',
         category: '',
