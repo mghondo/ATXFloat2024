@@ -3,10 +3,6 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import './breadcrumb.css';
 
-// AOS.init();
-
-// debounce.js
-
 const debounce = (func, delay) => {
   let timeoutId;
   return (...args) => {
@@ -17,8 +13,7 @@ const debounce = (func, delay) => {
   };
 };
 
-// export default debounce;
-
+const smallBreadCrumb = '/assets/images/bg/ATXFloatLogo3.mobile.png';
 
 class Breadcrumb extends Component {
   constructor(props) {
@@ -45,25 +40,26 @@ class Breadcrumb extends Component {
     this.setState({ screenWidth: window.innerWidth });
   };
 
-
   render() {
-    const { title, backgroundImage } = this.props;
+    const { title } = this.props;
     const { screenWidth } = this.state;
-    const backgroundUrl = backgroundImage || '/assets/images/bg/ATXFLOAT3.jpg';
+
+    // Define the background images for different screen widths
+    const backgroundImage = screenWidth <= 475 ? smallBreadCrumb : '/assets/images/bg/ATXFLOAT3.jpg';
 
     return (
       <React.Fragment>
-    <div
-    // 
-      id="morganbreadcrumb"
-      className={`
-      breadcrumb-area 
-      rn-bg-color 
-      ptb--120 
-      bg_image 
-      ${screenWidth <= 991 ? 'mobile-breadcrumb' : ''}`}
-      data-black-overlay="1"
-    >
+        <div
+          id="morganbreadcrumb"
+          className={`
+            breadcrumb-area 
+            rn-bg-color 
+            ptb--120 
+            bg_image 
+            ${screenWidth <= 991 ? 'mobile-breadcrumb' : ''}`}
+          data-black-overlay="1"
+          style={{ backgroundImage: `url(${backgroundImage})` }}
+        >
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
@@ -71,7 +67,6 @@ class Breadcrumb extends Component {
                   <h2
                     className={`myTitle ${screenWidth <= 567 && title === 'ATX Float keeps waterpark and rivers tubes stocked in central Texas. Ready to ship anytime.' ? 'mobile-font-size' : ''}`}
                     data-aos="fade-down"
-                    // data-aos-duration="750"
                   >
                     {title}
                   </h2>
