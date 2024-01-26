@@ -91,9 +91,12 @@
   }
   .blogtype { 
     margin-bottom: 0px !important;
+    font-family: 'Brice-Light' !important;
+    /* color: #54efe9 !important; */
   }
   .content { 
     margin-bottom: 0px !important;
+    
   }
 }
 
@@ -104,6 +107,7 @@
   font-family: 'Brice-Light';
   text-align: center;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  margin-bottom: 150px;
 }
 
 .blog-btn {
