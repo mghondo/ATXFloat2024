@@ -25,6 +25,7 @@ img {
     transform: rotateZ(180deg);
 }
 
+
 .slider::before {
     left: 0;
     top: 0;

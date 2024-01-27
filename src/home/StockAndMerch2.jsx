@@ -35,7 +35,7 @@ const StockAndMerch2 = ({ list, ChangeFromParent, }) => {
                         </div>
 
                         <div className="content">
-                          <p className="blogtype" style={{ color: '#EF5474', fontSize: '2.0rem', textAlign: 'center', textShadow: '2px 2px 4px rgba(0, 0, 0, 0.6)', }}>{value.category}</p>
+                          <p className="blogtype stockMerchClass" style={{ color: '#EF5474', fontSize: '2.0rem', textAlign: 'center',  }}>{value.category}</p>
                           <div className="blog-btn" >
                             <span className="rn-btn text-white"></span>
                           </div>

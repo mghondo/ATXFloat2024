@@ -22,7 +22,8 @@
 }
 
 .blogtype{
-  font-family: Brice-Light !important;
+  /* font-family: Brice-Light !important; */
+  font-family: 'Brice-BoldSemiCondensed' !important;
 }
 .container {
     width: 100%;
@@ -46,11 +47,15 @@
     .container {
         width: 100%;
     }
-    .merchImage {
-      object-fit: contain !important;
-    }
+
     .blogtype {
-      font-family: 'Brice-Black' !important;
+      /* font-family: 'Brice-Black' !important; */
+      font-family: 'Brice-BoldSemiCondensed' !important;
+      transform: translateY(5px);
+      z-index: 9999;
+    }
+    .thumbnail {
+      height: 80% !important; 
     }
   }
 
@@ -101,7 +106,7 @@
       height: 200px;
       object-fit: cover;
     }
-    merchImage {
+    .merchImage {
       object-fit: contain !important;
     }
   }

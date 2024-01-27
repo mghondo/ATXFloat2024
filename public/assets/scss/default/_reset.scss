@@ -13,6 +13,21 @@ font-family: 'Brice-Light';
 src: url('/assets/fonts/Brice Font Family/Brice-Light.otf') format('opentype');
 /* You can specify other font formats if needed (e.g., woff, woff2, ttf). */
 }
+@font-face {
+    font-family: 'Brice-BlackSemiCondensed';
+    src: url('/assets/fonts/Brice Font Family/Brice-BlackSemiCondensed.otf') format('opentype');
+    /* You can specify other font formats if needed (e.g., woff, woff2, ttf). */
+}
+@font-face {
+    font-family: 'Brice-BlackSemiExpanded';
+    src: url('/assets/fonts/Brice Font Family/Brice-BlackSemiExpanded.otf') format('opentype');
+    /* You can specify other font formats if needed (e.g., woff, woff2, ttf). */
+}
+@font-face {
+    font-family: 'Brice-BoldSemiCondensed';
+    src: url('/assets/fonts/Brice Font Family/Brice-BoldSemiCondensed.otf') format('opentype');
+    /* You can specify other font formats if needed (e.g., woff, woff2, ttf). */
+}
 
 * {
     -webkit-box-sizing: border-box;

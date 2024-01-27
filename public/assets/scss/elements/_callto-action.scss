@@ -14,6 +14,16 @@ font-family: 'Brice-Light';
 src: url('/assets/fonts/Brice Font Family/Brice-Light.otf') format('opentype');
 /* You can specify other font formats if needed (e.g., woff, woff2, ttf). */
 }
+@font-face {
+    font-family: 'Brice-BlackSemiCondensed';
+    src: url('/assets/fonts/Brice Font Family/Brice-BlackSemiCondensed.otf') format('opentype');
+    /* You can specify other font formats if needed (e.g., woff, woff2, ttf). */
+}
+@font-face {
+    font-family: 'Brice-BoldSemiCondensed';
+    src: url('/assets/fonts/Brice Font Family/Brice-BoldSemiCondensed.otf') format('opentype');
+    /* You can specify other font formats if needed (e.g., woff, woff2, ttf). */
+}
 
 .call-to-action {
     background: linear-gradient(145deg, #f81f01 0%, #ee076e 100%);

@@ -1,5 +1,16 @@
 /* StockAndMerch2.css */
 
+@font-face {
+  font-family: 'Brice-BlackSemiCondensed';
+  src: url('/assets/fonts/Brice Font Family/Brice-BlackSemiCondensed.otf') format('opentype');
+  /* You can specify other font formats if needed (e.g., woff, woff2, ttf). */
+  }
+@font-face {
+  font-family: 'Brice-BlackSemiExpanded';
+  src: url('/assets/fonts/Brice Font Family/Brice-BlackSemiExpanded.otf') format('opentype');
+  /* You can specify other font formats if needed (e.g., woff, woff2, ttf). */
+}
+
 /* .blog-style--1 */
 .content {
   margin-top: -20px; /* Add a negative top margin of 20 pixels */
@@ -87,26 +98,30 @@
 }
 @media (max-width: 575px) and (min-width: 300px)  {
   .mainThreeTubes{
-    height: 200px !important;
+    height: 230px !important;
   }
-  .blogtype { 
+  .blogtype, .stockMerchClass { 
     margin-bottom: 0px !important;
-    font-family: 'Brice-Light' !important;
+    /* font-family: 'Brice-BlackSemiExpanded' !important; */
+    font-family: 'Brice-BoldSemiCondensed' !important;
     /* color: #54efe9 !important; */
+    transform: translateY(10px);
+    z-index: 9999;
   }
   .content { 
     margin-bottom: 0px !important;
     
   }
+
 }
 
 
-.blogtype {
+.blogtype, .stockMerchClass {
   color: #ef5474;
   font-size: 2.0rem;
-  font-family: 'Brice-Light';
+  font-family: 'Brice-BoldSemiCondensed' !important;
   text-align: center;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); */
   margin-bottom: 150px;
 }
 
