@@ -13,7 +13,7 @@ const debounce = (func, delay) => {
   };
 };
 
-const smallBreadCrumb = '/assets/images/bg/ATXFloatLogo3.mobile.png';
+const smallBreadCrumb = '/assets/images/bg/ATXFloat3.500.png';
 
 class Breadcrumb extends Component {
   constructor(props) {
