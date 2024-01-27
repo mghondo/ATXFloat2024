@@ -279,7 +279,7 @@ const awesomeGear = [
 const backGroundBrown = {
     backgroundColor: '#f3edd1',
     paddingTop: '10px',
-    marginTop: '25px'
+    marginTop: '30px'
 }
 
 // const contactAreaStyle = {
