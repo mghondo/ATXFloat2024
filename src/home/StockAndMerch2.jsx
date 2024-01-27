@@ -18,7 +18,7 @@ const StockAndMerch2 = ({ list, ChangeFromParent, }) => {
                     <div key={i} className='col-lg-4 col-md-6 mainThreeTubes' style={{ cursor: 'pointer'}} onClick={() => window.location.href = value.link}>
                         {/* <div key={i} className='col-lg-4 col-md-6 col-12 mainThreeTubes' style={{ cursor: 'pointer'}} onClick={() => window.location.href = value.link}> */}
                       <div className="blog blog-style--1" style={{ backgroundColor: '#f3edd1', borderRadius: '20px', height: '100%' }}>
-                        <div className="thumbnail" style={{ backgroundColor: '#f3edd1', height: '100%', position: 'relative', overflow: 'hidden', borderRadius: '20px' }}>
+                        <div className="" style={{ backgroundColor: '#f3edd1', height: '100%', position: 'relative', overflow: 'hidden', borderRadius: '20px' }}>
                           <img
                             className="StockandMerchImg"
                             style={{
@@ -27,7 +27,8 @@ const StockAndMerch2 = ({ list, ChangeFromParent, }) => {
                               
                               backgroundColor: '#f3edd1',
                               boxShadow: '0px 8px 16px rgba(0, 0, 0, 0.2)',
-                              borderRadius: '20px'
+                              borderRadius: '20px',
+                              objectFit: 'contain'
                             }}
                             src={value.url}
                             alt="Blog Images"

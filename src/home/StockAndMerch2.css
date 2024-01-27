@@ -112,6 +112,9 @@
     margin-bottom: 0px !important;
     
   }
+  .thumbnail {
+    height: 100% !important; 
+  }
 
 }
 
