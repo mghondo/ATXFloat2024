@@ -107,9 +107,9 @@ class InteriorLanding extends Component {
 <LazyLoad height={200} offset={100}>
             <Fragment style={{backgroundColor: 'black'}}>
                 <PageHelmet pageTitle='ATX Float' />
-               <LazyLoad height={200} offset={100}>
+               {/* <LazyLoad height={200} offset={100}> */}
                 <Breadcrumb title={'ATX Float'} />
-                </LazyLoad>
+                {/* </LazyLoad> */}
                 <Helmet pageTitle="Interior Design" />
                <header
                    className="header-area formobile-menu header--fixed default-color header-right-visible"
