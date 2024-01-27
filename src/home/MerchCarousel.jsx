@@ -1,5 +1,5 @@
 // src/App.js
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './MerchCarousel.css';
 
 const shuffleArray = (array) => {
@@ -44,15 +44,55 @@ const awesomeGear = [
     '/assets/images/Merch.mini/Float_Pouch_USA_Package.png',
   ];
 
-shuffleArray(awesomeGear2);
+  const awesomeGear3 = [
+    `/assets/images/Merch.200.mini/Bevie_Sling_Assorted.200.png`,
+    `/assets/images/Merch.200.mini/Cool_Jug_Assorted.200.png`,
+    `/assets/images/Merch.200.mini/Drawstring_Bag_Assorted.200.png`,
+    `/assets/images/Merch.200.mini/Dry_Bag_15L_Holographic.200.png`,
+    `/assets/images/Merch.200.mini/Dry_Bag_Nylon_10L_Assorted_Camo.200.png`,
+    `/assets/images/Merch.200.mini/Dry_Bag_Nylon_10L_Assorted_Solid.200.png`,
+    `/assets/images/Merch.200.mini/Dry_Bag_PVC_15L_Solid_Assortment.200.png`,
+    `/assets/images/Merch.200.mini/Dry_Bag_PVC_15L_Translucent_Assortment.200.png`,
+    `/assets/images/Merch.200.mini/Float_Pouch_Camo_Assortment.200.png`,
+    `/assets/images/Merch.200.mini/Float_Pouch_Holographic_Assortment.200.png`,
+    `/assets/images/Merch.200.mini/Float_Pouch_Solid_Assortment.200.png`,
+    `/assets/images/Merch.200.mini/Float_Pouch_USA_Package.200.png`,
+  ]
 
+  
 const App = () => {
-  const trackWidth = `${awesomeGear2.length * 300}px`; // Assuming each image has a width of 300px
+  const [gearArray, setGearArray] = useState(awesomeGear2);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth <= 475) {
+        setGearArray(awesomeGear3);
+      } else {
+        setGearArray(awesomeGear2);
+      }
+
+      // Shuffle the array when the screen size changes
+      shuffleArray(gearArray);
+    };
+
+    // Initial check on mount
+    handleResize();
+
+    // Add event listener for window resize
+    window.addEventListener('resize', handleResize);
+
+    // Cleanup the event listener on component unmount
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, [gearArray, awesomeGear2, awesomeGear3]);
+
+  const trackWidth = `${gearArray.length * 300}px`; // Assuming each image has a width of 300px
 
   return (
     <div className="slider2">
       <div className="slide-track2" style={{ width: trackWidth }}>
-        {awesomeGear2.map((imageUrl, index) => ( // Use awesomeGear2 instead of awesomeGear
+        {gearArray.map((imageUrl, index) => (
           <div className="slide2" key={index}>
             <a href="/merchandise">
               <img
@@ -66,5 +106,5 @@ const App = () => {
     </div>
   );
 };
-  
-  export default App;
+
+export default App;
