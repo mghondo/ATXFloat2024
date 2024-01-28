@@ -17,7 +17,7 @@ const Catalog3 = ({ list, ChangeFromParent }) => {
   style={{ cursor: 'pointer', marginTop:'20px' }}
   onClick={() => window.location.href = '/drycamo2'}
 >
-            <div className="blog blog-style--1" style={{ backgroundColor: '#f3edd1', borderRadius: '20px', height: '100%' }}>
+            <div className="blog blog-style--1" style={{ backgroundColor: '#f3edd1', borderRadius: '20px', height: 'auto' }}>
               <div className="thumbnail" style={{ backgroundColor: '#f3edd1', height: 'auto' }}>
                 <img className="w-100 merchImage" src={value.url} alt="Blog Images" />
                 {/* <img className="merchImage" src={value.url} alt="Blog Images" /> */}
