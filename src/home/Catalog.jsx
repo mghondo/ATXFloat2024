@@ -13,7 +13,7 @@ const Catalog3 = ({ list, ChangeFromParent }) => {
           // <div key={i} className='col-lg-4 col-md-6 col-12' style={{ cursor: 'pointer', marginTop:'20px' }} onClick={() => window.location.href = value.link}>
           <div
   key={i}
-  className='col-lg-6 col-md-6 col-12'
+  className='col-lg-3 col-md-6 col-12'
   style={{ cursor: 'pointer', marginTop:'20px' }}
   onClick={() => window.location.href = '/drycamo2'}
 >
