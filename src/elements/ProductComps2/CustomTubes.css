@@ -23,7 +23,7 @@
 @media (max-width: 767px) {
   .image-gallery {
     /* Two tubes per row in mobile mode */
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
