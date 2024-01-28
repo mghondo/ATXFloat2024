@@ -12,10 +12,13 @@ const Catalog2 = ({ list, ChangeFromParent }) => {
         {list.map((value, i) => (
           // <div key={i} className='col-lg-6 col-md-6 col-12' style={{ cursor: 'pointer', marginTop:'20px' }} onClick={() => window.location.href = value.link}>
            <div key={i} className='col-lg-6 col-md-6 col-12' style={{ cursor: 'pointer', marginTop:'20px' }}>
-            <div className="blog blog-style--1" style={{ backgroundColor: '#f3edd1', borderRadius: '20px', height: '100%' }}>
+            {/* <div className="blog blog-style--1" style={{ backgroundColor: '#f3edd1', borderRadius: '20px', height: '100%' }}> */}
+            <div className="blog" style={{ backgroundColor: '#f3edd1', borderRadius: '20px', height: '100%' }}>
+
               {/* <a className="blogtype" href="/parksingle2"> */}
               <a className="blogtype" href="/drycamo2">
-              <div className="thumbnail" style={{ backgroundColor: '#f3edd1', height: '100%' }}>
+              {/* <div className="thumbnail" style={{ backgroundColor: '#f3edd1', height: '100%' }}> */}
+              <div className="" style={{ backgroundColor: '#f3edd1', height: '100%' }}>
                 <img className="w-100" src={value.url} alt="Blog Images" />
                 {/* <img className="w-100" src="uscolorway2" alt="Blog Images" /> */}
               </div>
