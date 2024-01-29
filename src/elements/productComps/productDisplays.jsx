@@ -100,6 +100,8 @@ class ProductDisplays extends Component {
                                 <div className="portfolio-details">
                                     <div className="inner">
                                     <h2 style={{ fontFamily: 'Brice-Black', textAlign: 'center', color:'#ef5474', textShadow: '2px 2px 4px rgba(0, 0, 0, 0.6)',}} className="title" data-aos="fade-down" data-aos-duration="750">Product Displays</h2>
+                                    <br/>
+<br/>
                                     <h2
                                             style={{
                                                 color: '#00f3ff',
@@ -167,6 +169,8 @@ OF 2 INNER CARTONS (60 FLOAT POUCHES)
                                             (*Please pay shipping separately)</p>
                             
                             {/* Next Product */}
+                            <br/>
+<br/>
                                             <h2
                                             style={{
                                                 color: '#00f3ff',
@@ -228,6 +232,8 @@ Or displays Float Pouches on all hooks.</li>
                                             (*Please pay shipping separately)</p>
 
 {/* next product  */}
+<br/>
+<br/>
 
 <h2
                                             style={{

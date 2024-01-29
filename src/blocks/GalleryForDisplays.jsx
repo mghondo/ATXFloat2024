@@ -53,6 +53,7 @@ class GalleryForDisplays extends Component {
                     <a href="#portfolio-details" onClick={() => this.setState({ isOpen: true, tab1: index })}>
                     <img
                       src={value.bigImage}
+                      style={{maxHeight: '500px', opacity: 1}}
                       className="portfolio-image" // Apply the CSS class here
                       alt="Portfolio Images"
                     />
