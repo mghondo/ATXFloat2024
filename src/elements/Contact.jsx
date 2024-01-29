@@ -197,9 +197,9 @@ class Contact extends Component{
                     </ScrollToTop>
                 </div>
                 {/* End Back To Top */}
-                
+            <div className="footerDiv" style={{marginTop: '15px'}}>
                 <Footer />
-                
+            </div>
             </React.Fragment>
       
         )
