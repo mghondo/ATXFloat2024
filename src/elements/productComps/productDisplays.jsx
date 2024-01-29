@@ -17,6 +17,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import RandomGear from "./RandomGear";
 import GalleryForDisplays from "../../blocks/GalleryForDisplays";
+import GalleryForDisplays2 from "../../blocks/GalleryForDisplays2";
+
 
 AOS.init();
 
@@ -174,6 +176,7 @@ OF 2 INNER CARTONS (60 FLOAT POUCHES)
                                                 fontSize: '2rem',
                                                 paddingTop: '10px',
                                                 paddingBottom: '10px',
+                                                marginBottom: '30px',
                                                 textShadow: '2px 2px 4px rgba(0, 0, 0, 0.6)'
                                             }}
                                             data-aos="fade-up"
@@ -182,7 +185,8 @@ OF 2 INNER CARTONS (60 FLOAT POUCHES)
                                         >
                                             Multi-Product Floor Display
                                         </h2>
-                                        <GalleryForDisplays photos={floorStands} imageWidth="15rem" imageHeight="15rem"/>
+                                        {/* <GalleryForDisplays photos={floorStands} imageWidth="15rem" imageHeight="15rem"/> */}
+                                        <GalleryForDisplays2 photos={floorStands} />
                                         <h2
                                             style={{
                                                 color: 'black',
@@ -193,8 +197,8 @@ OF 2 INNER CARTONS (60 FLOAT POUCHES)
                                                 paddingTop: '15px',
                                                 paddingBottom: '15px'
                                             }}
-                                            data-aos="fade-up"
-                                            data-aos-duration="750"
+                                            // data-aos="fade-up"
+                                            // data-aos-duration="750"
                                             className="subtitle"
                                         >
                                             Free with your purchase of 1 master carton of float pouches or combined
@@ -243,6 +247,7 @@ Or displays Float Pouches on all hooks.</li>
                                             Sunglass Floaters Counter Display
                                         </h2>
                                         <GalleryForDisplays photos={sunglassStands} imageWidth="25rem" imageHeight="25rem"/>
+                                        
                                         <h2
                                             style={{
                                                 color: 'black',
@@ -253,8 +258,8 @@ Or displays Float Pouches on all hooks.</li>
                                                 paddingTop: '15px',
                                                 paddingBottom: '15px'
                                             }}
-                                            data-aos="fade-up"
-                                            data-aos-duration="750"
+                                            // data-aos="fade-up"
+                                            // data-aos-duration="750"
                                             className="subtitle"
                                         >Free with your purchase of 2 inner cartons (100 Sunglass Floaters)- $40 Value
                                         </h2>

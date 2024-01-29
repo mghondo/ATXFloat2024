@@ -14,3 +14,18 @@
       padding: 100px !important;
     }
   }
+
+  @media (max-width: 767px) and (min-width: 521px) {
+    .classIWant {
+      padding: 50px !important;
+    }
+  }
+
+  @media (max-width: 520px) {
+    .classIWant {
+      padding: 20px !important;
+    }
+    li {
+      font-size: 15px !important;
+    }
+  }

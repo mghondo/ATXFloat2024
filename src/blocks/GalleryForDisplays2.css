@@ -46,9 +46,9 @@
 }
 
 /* ... other CSS rules ... */
-ul.brand-style-2 img .porfolio-image {
-    max-width: 25rem;
-    max-height: 25rem;
+#porfolio-image2 {
+    max-width: 15rem !important;
+    max-height: 15rem !important;
     overflow: hidden;
     opacity: 1;
     border-radius: 2px;
@@ -56,23 +56,19 @@ ul.brand-style-2 img .porfolio-image {
   }
 
 /* ... other CSS rules ... */
-@media (max-width: 1200px) {
+@media (max-width: 1200px) and (min-width: 768) {
     .thumbnail-inner {
         height: 400px !important;
+    }
+    img.portfolio-image2 {
+        max-height: 250px !important;
     }
 }
 
 
-.subImages {
-    max-width: 15rem;
-    max-height: 15rem;
-    overflow: hidden;
-    opacity: 1;
-    /* border-radius: 2px; */
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
-  }
 
-@media only screen and (max-width: 767px) {
+
+@media (max-width: 767px) and ( min-width: 521px){
     .productImg {
     padding: 15px 0 !important;
     margin-top: 0px;
@@ -85,10 +81,13 @@ ul.brand-style-2 img .porfolio-image {
     max-height: 3rem !important;
 }
 
+
 /* styles.css */
+/* img.portfolio-image2 {
+    width: 100px !important;
+    height: 100px !important;
+} */
 
-
-  
   
 }
 @media (max-width: 520px) {

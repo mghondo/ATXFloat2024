@@ -3,11 +3,12 @@ import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import './GalleryRiver.css'; // Replace with the correct path to your CSS file
+import './GalleryForDisplays2'; // Replace with the correct path to your CSS file
+
 
 AOS.init();
 
-class GalleryForDisplays extends Component {
+class GalleryForDisplays2 extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -29,7 +30,7 @@ class GalleryForDisplays extends Component {
             style={{ backgroundColor: '#f3edd1', paddingTop: '0px' }}
           >
             <div className="container">
-              <ul className="brand-style-2" style={{ margin: '5px 0px'}}>
+              <ul className="brand-style-2">
                 {photos.map((value, index) => (
                   <li key={index} style={{padding: '0px 0px', margin: '5px 0px'}}>
                     {isOpen && (
@@ -53,7 +54,9 @@ class GalleryForDisplays extends Component {
                     <a href="#portfolio-details" onClick={() => this.setState({ isOpen: true, tab1: index })}>
                     <img
                       src={value.bigImage}
-                      className="portfolio-image" // Apply the CSS class here
+                      style={{opacity: 1, maxHeight: '15rem'}}
+                      className="portfolio-image2" 
+                      id='portfolio-image2'// Apply the CSS class here
                       alt="Portfolio Images"
                     />
                     </a>
@@ -69,4 +72,4 @@ class GalleryForDisplays extends Component {
   }
 }
 
-export default GalleryForDisplays;
+export default GalleryForDisplays2;
