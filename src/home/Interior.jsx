@@ -23,7 +23,8 @@ const contactAreaStyle = {
 }
 const footerBackground = {
     backgroundColor: '#44494e',
-    padding: '60px'
+    // padding: '60px'
+    paddingBotton: '20px'
 }
 const customImage = '/assets/images/bg/CustomTubeBanner.png'
 const list = [
@@ -225,7 +226,7 @@ class InteriorLanding extends Component {
                                 </div>
                             </div>
 
-                            <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt_md--50 mt_sm--50" data-aos="fade-right" data-aos-duration="750">
+                            <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt_md--50 mt_sm--50" data-aos="fade-right" data-aos-duration="750" style={{marginBottom: '20px'}}>
                                 <div className="rn-address" style={{ backgroundColor: '#f3edd1' }}>
                                     <div className="icon" style={{ color: '#EF5474' }}>
                                         <FiMapPin />
@@ -243,8 +244,9 @@ class InteriorLanding extends Component {
                         </div>
                     </div>
                 </div>
-
+                {/* <div className="footerDiv" style={{marginTop: '15px'}}> */}
                 <FooterTwo />
+                {/* </div> */}
 
                 <div className="backto-top" >
                     <ScrollToTop showUnder={160}>
