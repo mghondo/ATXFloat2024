@@ -29,8 +29,8 @@
 }
 
 .slider2 .slide-track2 {
-    -webkit-animation: unscroll 20s linear infinite;
-    animation: unscroll 20s linear infinite; /* Corrected to use unscroll */
+    -webkit-animation: unscroll 15s linear infinite;
+    animation: unscroll 15s linear infinite; /* Corrected to use unscroll */
     display: flex;
     width: calc(300px * 14); /* Adjust based on the number of images */
 }

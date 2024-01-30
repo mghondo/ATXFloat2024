@@ -80,6 +80,7 @@ class CustomGalleryFromParent extends Component {
                     >
                       <img
                         src={value.bigImage}
+                        style={{ opacity: 1}}
                         className='imageInterior'
                         alt="Portfolio Images"
                       />
