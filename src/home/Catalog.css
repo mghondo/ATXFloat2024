@@ -15,6 +15,9 @@ box-shadow: none !important;
 
 }
 
+.catHeader {
+z-index: 1000;
+}
 
 
 .blogtype, a, a:visited {
@@ -57,6 +60,16 @@ font-family: 'Brice-BoldSemiCondensed' !important;
   .thumbnail {
     height: 80% !important; 
   }
+  .catHeader {
+    margin-bottom: 0px !important;
+    transform: translateY(45px) !important;
+  }
+}
+
+@media (min-width: 768px){
+  .merchImage {
+    transform: translateY(-20px);
+  }
 }
 
 @media (max-width: 1199px) and (min-width: 992px) {
@@ -86,7 +99,12 @@ font-family: 'Brice-BoldSemiCondensed' !important;
   }
   .merchImage {
     object-fit: contain !important;
+    height: 250px !important;
   }
+  .blogtype {
+    transform: translateY(20px);
+  }
+  
 }
 @media (max-width: 767px) and (min-width: 300px) {
   .col-lg-4.col-md-6.col-12 {
@@ -97,6 +115,7 @@ font-family: 'Brice-BoldSemiCondensed' !important;
   }
   .merchImage {
     object-fit: contain !important;
+    height: 300px !important;
   }
 }
 
@@ -114,6 +133,7 @@ font-family: 'Brice-BoldSemiCondensed' !important;
 
 .merchImage {
 object-fit: contain !important;
+transform: translateY(-15px);
 
 }
 }

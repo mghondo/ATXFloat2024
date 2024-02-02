@@ -1,137 +1,154 @@
 /* Default styles for the element */
 .col-lg-4.col-md-6.col-12 {
-    margin-top: 10px; 
-    height: 450px; /* Default height for larger screens */
-    
-    width: 100%;
-  }
+  margin-top: 10px; 
+  height: 450px; /* Default height for larger screens */
+  
+  width: 100%;
+}
 
 .blogtype {
-  color: #EF5474;
+color: #EF5474;
 }
 
 .merchImage {
-  box-shadow: none !important;
-  
+box-shadow: none !important;
+
 }
 
+.catHeader {
+z-index: 1000;
+}
 
 
 .blogtype, a, a:visited {
-  color: #EF5474;
+color: #EF5474;
 }
 
 .blogtype{
-  /* font-family: Brice-Light !important; */
-  font-family: 'Brice-BoldSemiCondensed' !important;
+/* font-family: Brice-Light !important; */
+font-family: 'Brice-BoldSemiCondensed' !important;
 }
 .container {
-    width: 100%;
+  width: 100%;
 }
 
 .thumbnail img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    /* background-color: #ded6aa; */
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  /* background-color: #ded6aa; */
+}
+
+
+/* Media query for screens less than 768px wide */
+@media (max-width: 767px) {
+  .col-lg-4.col-md-6.col-12 {
+    height: 360px;
+    /* padding-bottom: 10px; */
+    /* margin-top: 0px;  */
+  }
+  .container {
+      width: 100%;
+  }
+
+  .blogtype {
+    /* font-family: 'Brice-Black' !important; */
+    font-family: 'Brice-BoldSemiCondensed' !important;
+    transform: translateY(5px);
+    z-index: 9999;
+  }
+  .thumbnail {
+    height: 80% !important; 
+  }
+  .catHeader {
+    margin-bottom: 0px !important;
+    transform: translateY(45px) !important;
+  }
+}
+
+@media (min-width: 768px){
+  .merchImage {
+    transform: translateY(-20px);
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+  .col-lg-4.col-md-6.col-12 {
+    /* margin-top: 0px;  */
+    height: 350px;
+    /* padding-bottom: 10px; */
+    object-fit: cover;
+  }
+}
+@media (max-width: 991px) and (min-width: 767px) {
+  .col-lg-4.col-md-6.col-12 {
+    /* margin-top: 0px;  */
+    /* padding-bottom: 10px; */
+    height: 300px;
+    object-fit: cover;
+  }
+}
+@media (max-width: 576px){
+  .col-lg-4.col-md-6.col-12 {
+     /* Adjust the margin for screens between 1199px and 992px */
+    /* padding-bottom: 10px; */
+    /* margin: 10px;
+    padding: 10px;
+    height: 300px;
+    object-fit: cover; */
+  }
+  .merchImage {
+    object-fit: contain !important;
+    height: 250px !important;
+  }
+  .blogtype {
+    transform: translateY(20px);
   }
   
-  
-  /* Media query for screens less than 768px wide */
-  @media (max-width: 767px) {
-    .col-lg-4.col-md-6.col-12 {
-      height: 360px;
-      /* padding-bottom: 10px; */
-      /* margin-top: 0px;  */
-    }
-    .container {
-        width: 100%;
-    }
+}
+@media (max-width: 767px) and (min-width: 300px) {
+  .col-lg-4.col-md-6.col-12 {
+    /* margin-top: 0px;  */
+    height: 323px !important;
+    /* padding-bottom: 10px; */
+    object-fit: contain !important;
+  }
+  .merchImage {
+    object-fit: contain !important;
+  }
+}
 
-    .blogtype {
-      /* font-family: 'Brice-Black' !important; */
-      font-family: 'Brice-BoldSemiCondensed' !important;
-      transform: translateY(5px);
-      z-index: 9999;
-    }
-    .thumbnail {
-      height: 80% !important; 
-    }
+@media (max-width: 399px) and (min-width: 320px) {
+  .col-lg-4.col-md-6.col-12 {
+    /* margin-top: 0px;  */
+    height: 200px;
+    object-fit: cover;
   }
-
-  @media (max-width: 1199px) and (min-width: 992px) {
-    .col-lg-4.col-md-6.col-12 {
-      /* margin-top: 0px;  */
-      height: 350px;
-      /* padding-bottom: 10px; */
-      object-fit: cover;
-    }
+  .merchImage {
+    object-fit: contain !important;
   }
-  @media (max-width: 991px) and (min-width: 767px) {
-    .col-lg-4.col-md-6.col-12 {
-      /* margin-top: 0px;  */
-      /* padding-bottom: 10px; */
-      height: 300px;
-      object-fit: cover;
-    }
-  }
-  @media (max-width: 576px){
-    .col-lg-4.col-md-6.col-12 {
-       /* Adjust the margin for screens between 1199px and 992px */
-      /* padding-bottom: 10px; */
-      /* margin: 10px;
-      padding: 10px;
-      height: 300px;
-      object-fit: cover; */
-    }
-    .merchImage {
-      object-fit: contain !important;
-    }
-  }
-  @media (max-width: 767px) and (min-width: 300px) {
-    .col-lg-4.col-md-6.col-12 {
-      /* margin-top: 0px;  */
-      height: 323px !important;
-      /* padding-bottom: 10px; */
-      object-fit: contain !important;
-    }
-    .merchImage {
-      object-fit: contain !important;
-    }
-  }
-
-  @media (max-width: 399px) and (min-width: 320px) {
-    .col-lg-4.col-md-6.col-12 {
-      /* margin-top: 0px;  */
-      height: 200px;
-      object-fit: cover;
-    }
-    .merchImage {
-      object-fit: contain !important;
-    }
-  }
-  @media screen and (max-width: 499px) and (min-width: 200px) {
+}
+@media screen and (max-width: 499px) and (min-width: 200px) {
 
 .merchImage {
-  object-fit: contain !important;
-  
+object-fit: contain !important;
+
 }
 }
 
-  @media (max-width: 319px) {
-    .col-lg-4.col-md-6.col-12 {
-      /* margin-top: 0px;  */
-      height: 100px;
-      object-fit: cover;
-    }
-    .merchImage {
-      object-fit: contain !important;
-    }
+@media (max-width: 319px) {
+  .col-lg-4.col-md-6.col-12 {
+    /* margin-top: 0px;  */
+    height: 100px;
+    object-fit: cover;
   }
+  .merchImage {
+    object-fit: contain !important;
+  }
+}
 
 
-  /* Add a negative margin to reduce spacing between elements */
+/* Add a negative margin to reduce spacing between elements */
 
-  
 
-  
+
