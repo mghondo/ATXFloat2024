@@ -16,7 +16,7 @@ const Brand = () => {
             {/* Start Header Area  */}
             <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
             {/* End Header Area  */}
-            
+            {/* making sure things work. */}
             {/* Start Breadcrump Area */}
             <Breadcrumb title={'Client Logo'}   />
             {/* End Breadcrump Area */}
