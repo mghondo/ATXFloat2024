@@ -37,6 +37,7 @@ font-family: 'Brice-BoldSemiCondensed' !important;
   height: 100%;
   object-fit: contain;
   /* background-color: #ded6aa; */
+  transform: scale(.75) !important;
 }
 
 
@@ -132,7 +133,7 @@ font-family: 'Brice-BoldSemiCondensed' !important;
 
 .merchImage {
 object-fit: contain !important;
-
+transform: scale(.8) !important;
 }
 }
 
@@ -144,6 +145,7 @@ object-fit: contain !important;
   }
   .merchImage {
     object-fit: contain !important;
+
   }
 }
 
