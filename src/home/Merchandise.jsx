@@ -294,14 +294,14 @@ const awesomeGear = [
         addittionalStyles: '',
     },
     {
-        category: 'Float Pouch',
+        category: 'Float Pouch Camo',
         title: 'Camo Assortment',
         url: '/assets/images/NewImages10.23.2023/Merchandise/Float_Pouch_Camo/Float_Pouch_Camo_Assortment.png',
         link: '/floatpouchcamo',
         addittionalStyles: '',
     },
     {
-        category: 'Float Pouch',
+        category: 'Float Pouch Holographic',
         title: 'Holographic Assortment',
         url: '/assets/images/NewImages10.23.2023/Merchandise/Float_Pouch_Holographic/Float_Pouch_Holographic_Assortment.png',
         link: '/floatpouchholo',
@@ -309,21 +309,21 @@ const awesomeGear = [
 
     },
     {
-        category: 'Float Pouch',
+        category: 'Float Pouch Solid',
         title: 'Solid Color Assortment',
         url: '/assets/images/NewImages10.23.2023/Merchandise/Float_Pouch_Solid/Float_Pouch_Solid_Assortment.png',
         link: '/floatpouchsolid',
         addittionalStyles: '',
     },
     {
-        category: 'Quick Clip Goggles',
+        category: 'Quick Clip Goggles Adult',
         title: 'Adult Assortment',
         url: '/assets/images/NewImages10.23.2023/Merchandise/Goggles_Adult/Goggles_Adult_Blue-Blue_Metalic.png',
         link: '/gogglesAdult',
         addittionalStyles: '',
     },
     {
-        category: 'Quick Clip Goggles',
+        category: 'Quick Clip Goggles Kids',
         title: 'Kids Assortment',
         url: '/assets/images/NewImages10.23.2023/Merchandise/Goggles_Kids/Goggles_Kids_Package.png',
         link: '/gogglesKids',

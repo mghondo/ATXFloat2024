@@ -462,13 +462,13 @@ const CustomTubes2 = () => {
               fontFamily: 'Brice-Black',
               color: '#ef5474',
               textAlign: 'center',
-              fontSize: '2.5rem',
+              
               paddingTop: '10px',
               paddingBottom: '10px'
             }}
             data-aos="fade-up"
             data-aos-duration="750"
-            className="subtitle"
+            className="subtitle customTubes"
           >
             Custom Tubes
           </h2>
