@@ -195,4 +195,8 @@ src: url('/assets/fonts/Brice Font Family/Brice-BoldSemiCondensed.otf') format('
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
 
-
+@media screen and (max-width: 550px) and (min-width: 200px) {
+.stockMerchMain {
+  transform: translateY(-80px) !important;
+}
+}

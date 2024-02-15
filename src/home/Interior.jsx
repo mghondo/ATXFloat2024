@@ -158,7 +158,9 @@ class InteriorLanding extends Component {
                     </div>
                 </header>
             <LazyLoad height={200} offset={100}>
+                <div className="stockMerchMain">
                 <StockAndMerch2 list={list} ClassFromParent = 'col-lg-4 col-md-6 col-12'/>
+                </div>
             </LazyLoad>
             {/* <LazyLoad height={200} offset={100}> */}
 
