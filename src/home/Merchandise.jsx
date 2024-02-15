@@ -338,7 +338,7 @@ const awesomeGear = [
 
     },
     {
-        category: 'Float Pouch',
+        category: 'Float Pouch USA',
         title: 'USA Colorway',
         url: '/assets/images/NewImages10.23.2023/Merchandise/Float_Pouch_USA/Float_Pouch_USA_Package.png',
         link: '/uscolorway',
