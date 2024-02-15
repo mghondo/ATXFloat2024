@@ -52,3 +52,6 @@ transition: transform 0.3s ease; /* Add a smooth transition effect */
 transform: scale(1); /* Set to original size on hover */
 }
 
+.portfolio-slick-activation, button, .slick-arrow, .slick-prev  {
+  transform: translatey(70px) !important;
+}
