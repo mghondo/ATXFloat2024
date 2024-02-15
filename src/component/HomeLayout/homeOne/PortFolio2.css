@@ -53,5 +53,5 @@ transform: scale(1); /* Set to original size on hover */
 }
 
 .portfolio-slick-activation, button, .slick-arrow, .slick-prev  {
-  transform: translatey(70px) !important;
+  transform: translatey(30px) !important;
 }
